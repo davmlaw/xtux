@@ -1,0 +1,1422 @@
+#############################################################################
+# Entity types for XTux.                                                    #
+#                                                                           #
+# Order doesn't matter. Amount of arguments DOES!                           #
+# YOU NEED AN ALIVE_* animation details setup.                              #
+#                                                                           #
+# ENTITY defaults:                                                          #
+# health 1                                                                  #
+# cliplevel GROUNDCLIP                                                      #
+#                                                                           #
+# ANIMATION defaults                                                        #
+# *_images 1                                                                #
+# *_frames 1                                                                #
+# *_dir 8                                                                   #
+# *_order 0 0 0 0                                                           #
+#                                                                           #
+#############################################################################
+
+[TUX]
+class GOODIE
+health 100
+width 54
+height 62
+speed 160
+accel 200
+weapon CD
+draw_weapon 1
+bleeder 1
+sight 400
+
+#ALIVE
+alive_pixmap tux.xpm
+alive_dir 8
+alive_images 3
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200
+
+#DYING:
+dying_pixmap tux_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 250
+
+[GOWN]
+class GOODIE
+health 100
+width 40
+height 62
+speed 160
+accel 200
+weapon CD
+draw_weapon 1
+bleeder 1
+sight 400
+
+#ALIVE:
+alive_pixmap gown.xpm
+alive_images 3
+alive_img_w 44
+alive_img_h 64
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200
+
+[TIE]
+class GOODIE
+health 100
+width 48
+height 48
+speed 160
+accel 200
+weapon CD
+draw_weapon 1
+bleeder 1
+sight 400
+
+#ALIVE:
+alive_pixmap tie.xpm
+alive_images 3
+alive_img_w 48
+alive_img_h 48
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200    
+
+#DYING:
+dying_pixmap tie_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 48
+dying_img_h 48
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+[BSD]
+class GOODIE
+health 100
+width 48
+height 58
+speed 160
+accel 200
+weapon FIREBALL 
+draw_weapon 1
+bleeder 1
+sight 400
+
+#ALIVE:
+alive_pixmap bsd.xpm
+alive_dir 16
+alive_images 3
+alive_img_w 64
+alive_img_h 64
+#alive_arm_x 10
+#alive_arm_y 32
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200
+#alive_draw_hand 1
+
+#DYING:
+dying_pixmap bsd_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 48
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 250
+
+[RMS]
+class GOODIE
+health 100
+width 48
+height 54 
+speed 160
+accel 150
+weapon CD
+draw_weapon 1
+bleeder 1  
+sight 400
+
+#ALIVE:
+alive_pixmap rms.xpm
+alive_images 5
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 1 2 3 4
+alive_framelen 200 
+
+[LINUS]
+class GOODIE
+health 100
+width 48
+height 48 
+speed 160
+accel 150
+weapon CD
+draw_weapon 1
+bleeder 1  
+sight 400
+
+#ALIVE:
+alive_pixmap linus.xpm
+alive_images 5
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 1 2 3 4
+alive_framelen 200 
+
+#DYING:
+dying_pixmap linus_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+[SHADOWMAN]
+class GOODIE
+health 100
+width 48
+height 48 
+speed 160
+accel 150
+weapon CD
+draw_weapon 1
+bleeder 1  
+sight 400
+
+#ALIVE:
+alive_pixmap shadowman.xpm
+alive_images 5
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 1 2 3 4
+alive_framelen 200 
+
+#DYING:
+dying_pixmap shadowman_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+[GNOME]
+class GOODIE
+health 100
+width 48
+height 48 
+speed 160
+accel 150
+weapon CD
+draw_weapon 1
+bleeder 1  
+sight 400
+
+#ALIVE:
+alive_pixmap gnome.xpm
+alive_images 3
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200 
+
+#DYING:
+dying_pixmap gnome_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 250
+
+[SUSE]
+class GOODIE
+health 100
+width 48
+height 48 
+speed 160
+accel 150
+weapon CD
+draw_weapon 1
+bleeder 1  
+sight 400
+
+#ALIVE:
+alive_pixmap suse.xpm
+alive_images 3
+alive_img_w 82
+alive_img_h 64
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200 
+
+#DYING:
+dying_pixmap suse_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 82
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 250
+
+[GNU]
+class GOODIE
+health 120
+width 48
+height 62
+speed 150
+accel 125
+weapon CD
+draw_weapon 1
+bleeder 1
+sight 400
+
+#ALIVE:
+alive_pixmap gnu.xpm
+alive_dir 16
+alive_images 5
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 1 2 3 4
+alive_framelen 200
+
+#DYING:
+dying_pixmap gnu_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 4
+dying_img_w 64
+dying_img_h 64
+dying_frames 4
+dying_order 0 1 2 3
+dying_framelen 300
+
+[VI]
+class GOODIE
+health 70
+width 32
+height 48
+speed 220
+accel 240
+weapon PISTOL
+draw_weapon 0
+bleeder 1
+sight 400
+
+#ALIVE:
+alive_pixmap vi.xpm
+alive_images 4
+alive_img_w 48
+alive_img_h 48
+alive_frames 4
+alive_order 0 1 2 3
+alive_framelen 200
+
+#DYING:
+dying_pixmap vi_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 48
+dying_img_h 48
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+[DUKE]
+class GOODIE
+health 100
+width 48
+height 52
+speed 160
+accel 200
+weapon CD
+draw_weapon 1
+bleeder 1
+sight 400
+
+#ALIVE:
+alive_pixmap duke.xpm
+alive_images 3
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200
+
+#DYING:
+dying_pixmap duke_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+[KDE]
+class GOODIE
+health 100
+width 54
+height 62
+speed 160
+accel 200
+weapon FIREBALL
+draw_weapon 1
+bleeder 1
+sight 400
+
+#ALIVE
+alive_pixmap kde.xpm
+alive_stationary_ani 1
+alive_images 3
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200
+
+#DYING:
+dying_pixmap kde_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 250
+
+##################################################
+#                  BADDIES                       #
+##################################################
+
+[BORG]
+class BADDIE
+health 80
+width 40
+height 60
+speed 160
+accel 200
+weapon BORG_GUN
+draw_weapon 1
+bleeder 1
+sight 400
+
+#ALIVE
+alive_pixmap borg.xpm
+alive_images 5
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 1 2 3 4
+alive_framelen 200
+
+#DYING:
+dying_pixmap borg_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+[TROLL]
+class BADDIE
+health 100
+touchdamage 30
+width 44
+height 62
+speed 100
+accel 200
+weapon NONE
+draw_weapon 0
+bleeder 1
+sight 200
+
+#ALIVE
+alive_pixmap troll.xpm
+alive_images 5
+alive_img_w 58
+alive_img_h 80
+alive_frames 4
+alive_order 1 2 3 4
+alive_framelen 250
+
+#DYING:
+dying_pixmap troll_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 58
+dying_img_h 80
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+[FLAMER]
+class BADDIE
+health 50
+touchdamage 0
+explosive 80
+width 44
+height 62
+speed 100
+accel 200
+weapon FLAMER_FIREBALL
+draw_weapon 0
+bleeder 1
+sight 300
+
+#ALIVE
+alive_pixmap flamer.xpm
+alive_images 2
+alive_img_w 42
+alive_img_h 64
+alive_frames 1
+#Flamer moves around by flying (frame 1) stationary as frame 0
+alive_order 1 0 0 0
+alive_framelen 250 
+
+#DYING:
+dying_pixmap flamer_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 4
+dying_img_w 42
+dying_img_h 64
+dying_frames 4
+dying_order 0 1 2 3
+dying_framelen 300 
+
+[BUG]
+class BADDIE
+health 5
+touchdamage 15
+width 42
+height 42
+speed 140
+accel 200
+weapon NONE
+draw_weapon 0
+bleeder 1
+sight 200
+
+#ALIVE
+alive_pixmap bug.xpm
+alive_images 2
+alive_img_w  42
+alive_img_h 42
+alive_frames 2
+alive_order 0 1 0 0
+alive_framelen 100
+
+[MSCP]
+class BADDIE
+health 15
+touchdamage 20
+width 30
+height 60
+speed 80
+accel 150
+weapon NONE
+draw_weapon 0
+bleeder 1
+sight 200
+
+#ALIVE:
+alive_pixmap mscp.xpm
+alive_images 3
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200
+
+#DYING:
+dying_pixmap mscp_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300 
+
+[ZOMBIE]
+class BADDIE
+health 30
+touchdamage 20
+width 30
+height 60
+speed 80
+accel 150
+weapon NONE
+draw_weapon 0
+bleeder 1
+sight 200
+
+#ALIVE:
+alive_pixmap zombie.xpm
+alive_images 3
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200
+
+#DYING:
+dying_pixmap zombie_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+[COBOL]
+class BADDIE
+health 200
+touchdamage 35
+width 48
+height 48
+speed 80
+accel 100
+weapon NONE
+draw_weapon 0
+bleeder 1
+sight 200
+
+#ALIVE
+alive_pixmap cobol.xpm
+alive_images 2
+alive_img_w  64
+alive_img_h 64
+alive_frames 2
+alive_order 0 1 0 0
+alive_framelen 400
+
+#DYING:
+dying_pixmap cobol_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+[CLIPPY]
+class BADDIE
+health 50
+touchdamage 20
+width 30
+height 60
+speed 90
+accel 150
+weapon NONE
+draw_weapon 0
+bleeder 1
+sight 250
+
+#ALIVE:
+alive_pixmap clippy.xpm
+alive_images 3
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200
+
+#DYING:
+dying_pixmap clippy_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 300
+
+##################################################
+#                NEUTRALS                        #
+##################################################
+
+[BUNNY]
+class NEUTRAL
+health 5
+width 24
+height 24
+speed 160
+accel 200
+weapon NONE
+draw_weapon 0
+bleeder 1
+sight 160
+
+#ALIVE:
+alive_pixmap bunny.xpm
+alive_images 3
+alive_img_w 32
+alive_img_h 32
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 200
+
+#FIDGETING:
+fidgeting_pixmap bunny_groom.xpm
+fidgeting_stationary_ani 1
+fidgeting_images 2
+fidgeting_img_w 32
+fidgeting_img_h 32
+fidgeting_frames 2
+fidgeting_order 0 1 0 0
+fidgeting_framelen 450
+
+#Duck boy is a projectile, cause he doesn't think, but he shouldn't really
+#be shot out of anything :)
+
+[DUCKBOY]
+class PROJECTILE
+health 5
+width 28
+height 32
+speed 64
+accel 200
+weapon NONE
+draw_weapon 0
+bleeder 0
+sight 160
+
+#ALIVE:
+alive_dir 1
+alive_pixmap duckboy.xpm
+alive_images 2
+alive_img_w 32
+alive_img_h 32
+alive_frames 2
+alive_order 0 1 0 0
+alive_framelen 300
+
+#DYING:
+dying_dir 1
+dying_pixmap duckboy_die.xpm
+dying_images 3
+dying_img_w 32
+dying_img_h 32
+dying_frames 3
+dying_order 0 1 2 0
+dying_framelen 80
+
+
+##################################################
+#               PROJECTILES                      #
+##################################################
+
+[CD]
+width 20
+height 20
+speed 400
+weapon CD
+class PROJECTILE
+cliplevel ALLCLIP
+
+#ALIVE:
+alive_pixmap cd.xpm
+alive_dir 1
+alive_images 1
+alive_img_w 24
+alive_img_h 24
+alive_frames 1
+alive_order 0 0 0 0
+
+#DYING:
+dying_pixmap cd_die.xpm
+dying_stationary_ani 1 
+dying_dir 1
+dying_images 2
+dying_img_w 32
+dying_img_h 32
+dying_frames 2
+dying_order 0 1 0 0   
+dying_framelen 80 
+
+[FIREBALL]
+width 20
+height 20
+speed 400
+weapon FIREBALL
+class PROJECTILE
+cliplevel ALLCLIP
+
+#ALIVE:
+alive_pixmap fireball.xpm
+alive_stationary_ani 1 
+alive_dir 1
+alive_images 3
+alive_img_w 24
+alive_img_h 24
+alive_frames 3
+alive_order 0 1 2 0
+alive_framelen 50
+
+#DYING:
+dying_pixmap fireball_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 4
+dying_img_w 24
+dying_img_h 24
+dying_frames 4
+dying_order 0 1 2 3
+dying_framelen 80
+
+
+[ROCKET_SMALL]
+width 30
+height 30
+accel 80
+speed 500
+dripping 1
+weapon BAZOOKA
+drip_time 50
+drip1 0
+drip2 2
+class PROJECTILE
+cliplevel ALLCLIP
+#Turn this on to make seeking
+ai SEEK
+sight 200
+
+#ALIVE:
+alive_pixmap rocket_small.xpm
+alive_dir 8
+alive_images 1
+alive_img_w 32
+alive_img_h 32
+alive_frames 1
+alive_order 0 0 0 0
+
+
+####################
+# ITEMS:    HEALTH #
+####################
+
+[CAN]
+class ITEM
+width 22
+height 36
+item_action HEAL
+item_value 15
+item_respawn_time 30
+alive_pixmap can.xpm
+alive_dir 1
+alive_img_w 48
+alive_img_h 48
+
+#Mt Dew has twice the caffeine.
+[DEWCAN]
+class ITEM
+width 22
+height 36
+item_action HEAL
+item_value 30
+item_respawn_time 30
+alive_pixmap dewcan.xpm
+alive_dir 1
+alive_img_w 48
+alive_img_h 48
+
+[NODOZE]
+class ITEM
+width 48
+height 48
+item_action FULLHEAL
+item_respawn_time 60
+alive_pixmap nodoze.xpm
+alive_dir 1
+alive_img_w 48
+alive_img_h 48
+
+[BADCAN]
+class ITEM
+width 22
+height 36
+item_action HEAL
+item_value -15
+#Don't respawn, they are annoying!
+#item_respawn_time 20
+item_pickup_str Pffft... blargh... Yuck! Caffeine free!
+alive_pixmap badcan.xpm
+alive_dir 1
+alive_img_w 48
+alive_img_h 48
+
+[PIZZABOX]
+class ITEM
+width 48
+height 32
+item_action HEAL
+item_value 20
+item_respawn_time 30
+item_pickup_str Cowabunga
+alive_pixmap pizzabox.xpm
+alive_dir 1
+alive_img_w 48
+alive_img_h 32
+
+####################
+# ITEMS:  POWERUPS #
+####################
+
+#item_value for powerups = how many seconds they are active.
+
+[RANDOM_POWERUP]
+class ITEM
+width 40
+height 40
+item_action POWERUP
+item_powerup RANDOM
+item_respawn_time 60
+
+#ALIVE:
+alive_pixmap random.xpm
+alive_stationary_ani 1
+alive_dir 1
+alive_images 4
+alive_img_w 48
+alive_img_h 48
+alive_frames 4
+alive_order 0 1 2 3
+alive_framelen 200  
+
+
+[TIGHTARSE]
+class ITEM
+width 40
+height 40
+item_action POWERUP
+item_powerup HALF_AMMO_USAGE
+item_value 30
+item_respawn_time 120
+item_announce_str %s is a tightarse.
+
+#ALIVE:
+alive_pixmap tightarse.xpm
+alive_stationary_ani 1
+alive_dir 1
+alive_images 3
+alive_img_w 48
+alive_img_h 48
+alive_frames 4
+alive_order 0 1 0 2
+alive_framelen 400
+
+
+[BITROT]
+class ITEM
+width 40
+height 40
+item_action POWERUP
+item_powerup WOUND
+item_value 20
+item_respawn_time 120
+item_pickup_str You have bitrot.
+
+#ALIVE:
+alive_pixmap bitrot.xpm
+alive_stationary_ani 1
+alive_dir 1
+alive_images 4
+alive_img_w 44
+alive_img_h 44
+alive_frames 4
+alive_order 0 1 2 3
+alive_framelen 500
+
+
+[SMP]
+class ITEM
+width 40
+height 40
+item_action POWERUP
+item_powerup DOUBLE_FIRE_RATE
+item_value 30
+item_respawn_time 120
+item_pickup_str Added SMP support.
+
+#ALIVE:
+alive_pixmap smp.xpm
+alive_stationary_ani 1
+alive_dir 1
+alive_images 3
+alive_img_w 48
+alive_img_h 48
+alive_frames 4
+alive_order 0 1 2 1
+alive_framelen 750
+
+
+[FIREWALL]
+class ITEM
+width 40
+height 40
+item_action POWERUP
+item_powerup RESISTANCE
+item_value 20
+item_respawn_time 120
+item_pickup_str Firewall established
+
+#ALIVE:
+alive_pixmap firewall.xpm
+alive_stationary_ani 1
+alive_dir 1
+alive_images 2
+alive_img_w 48
+alive_img_h 48
+alive_frames 2
+alive_order 0 1 0 0
+alive_framelen 400
+
+[INVISIBLE]
+class ITEM
+width 40
+height 40
+item_action POWERUP
+item_powerup INVISIBILITY
+item_value 15
+item_respawn_time 120
+item_pickup_str I'm invisible, I'm invisible.
+
+#ALIVE:
+alive_pixmap blind_glasses.xpm
+alive_stationary_ani 0
+alive_dir 1
+alive_images 1
+alive_img_w 48
+alive_img_h 48
+alive_frames 1
+alive_order 0 0 0 0
+
+[NATALIE]
+class ITEM
+width 40
+height 40
+item_action POWERUP
+item_powerup FROZEN
+item_value 10
+item_respawn_time 120
+item_announce_str %s is petrified!
+
+#ALIVE:
+alive_pixmap natalie_portman.xpm
+alive_stationary_ani 0
+alive_dir 1
+alive_images 1
+alive_img_w 35
+alive_img_h 48
+alive_frames 1
+alive_order 0 0 0 0
+
+[E]
+class ITEM
+width 40
+height 56
+item_action POWERUP
+item_powerup E
+item_value 25
+item_respawn_time 120
+item_pickup_str You are enlightened.
+
+#ALIVE:
+alive_pixmap e.xpm
+alive_stationary_ani 0
+alive_dir 1
+alive_images 1
+alive_img_w 44
+alive_img_h 56
+alive_frames 1
+alive_order 0 0 0 0
+
+
+[PATENT]
+class ITEM
+width 40
+height 40
+item_action POWERUP
+item_powerup FIXED_WEAPON
+item_value 30
+item_respawn_time 120
+item_pickup_str Your weapons use technology protected by our patents.  Licence fee's are $100,000,000/per penguin.
+
+#ALIVE:
+alive_pixmap patent.xpm
+alive_stationary_ani 1
+alive_dir 1
+alive_images 2
+alive_img_w 48
+alive_img_h 48
+alive_frames 2
+alive_order 0 1 0 0
+alive_framelen 1000
+
+####################
+# ITEMS:   WEAPONS #
+####################
+
+[CHAINGUN]
+class ITEM
+width 40
+height 40
+item_action GIVEWEAPON
+item_weapon CHAINGUN
+item_respawn_time 40
+alive_pixmap chaingun.xpm
+alive_img_w 64
+alive_img_h 50
+
+[SHOTGUN]
+class ITEM
+width 40
+height 40
+item_action GIVEWEAPON
+item_weapon SHOTGUN
+item_respawn_time 40
+item_pickup_str Groovy.
+alive_pixmap shotgun.xpm
+alive_img_w 64
+alive_img_h 50
+
+[BAZOOKA]
+class ITEM
+width 40
+height 40
+item_action GIVEWEAPON
+item_weapon BAZOOKA
+item_respawn_time 40
+alive_pixmap bazooka.xpm
+alive_img_w 64
+alive_img_h 50
+
+[RAILGUN]
+class ITEM
+width 40
+height 40
+item_action GIVEWEAPON
+item_weapon RAILGUN
+item_respawn_time 40
+alive_pixmap railgun.xpm
+alive_img_w 64
+alive_img_h 50
+
+[SNIPER]
+class ITEM
+width 40
+height 40
+item_action GIVEWEAPON
+item_weapon SNIPER
+item_respawn_time 40
+alive_pixmap sniper.xpm
+alive_img_w 64
+alive_img_h 50
+
+[EGUN]
+class ITEM
+width 40
+height 40
+item_action GIVEWEAPON
+item_weapon EGUN
+item_respawn_time 40
+alive_pixmap egun.xpm
+alive_img_w 64
+alive_img_h 50
+
+####################
+# ITEMS:     AMMO  #
+####################
+
+[BULLETS]
+class ITEM
+width 40
+height 40
+item_action GIVEAMMO
+item_ammo_type BULLET
+item_value 25
+item_respawn_time 20
+alive_pixmap bullets.xpm
+alive_dir 1
+alive_img_w 48
+alive_img_h 48
+
+[SHELLS]
+class ITEM
+width 40
+height 40
+item_action GIVEAMMO
+item_ammo_type SHELL
+item_value 10
+item_respawn_time 20
+alive_pixmap shells.xpm
+alive_dir 1
+alive_img_w 48
+alive_img_h 48
+
+[ROCKETS]
+class ITEM
+width 16
+height 48
+item_action GIVEAMMO
+item_ammo_type ROCKET
+item_value 5
+item_respawn_time 20
+alive_pixmap rocket.xpm
+alive_dir 1
+alive_img_w 32
+alive_img_h 48
+
+[SLUGS]
+class ITEM
+width 48
+height 48
+item_action GIVEAMMO
+item_ammo_type SLUG
+item_value 8
+item_respawn_time 20
+alive_pixmap slugs.xpm
+alive_dir 1
+alive_img_w 64
+alive_img_h 64
+
+[CELLS]
+class ITEM
+width 40
+height 40
+item_action GIVEAMMO
+item_ammo_type CELL
+item_value 25
+item_respawn_time 20
+alive_pixmap battery.xpm
+alive_dir 1
+alive_img_w 64
+alive_img_h 64
+
+##############################################################
+# VIRTUAL entities are used by events for doors or whatever.
+#
+# For EVENT entities, ALIVE = when active (or triggered for a trigger)
+# DYING = animation from ALIVE <-> DEAD
+# DEAD = inactive (or not yet triggered for a trigger).
+#
+# Lack of animation for a either of these draws nothing.
+# Use width, height = 64, 64 so it centers on event square.
+#
+##############################################################
+
+[NEWSPAPER]
+class VIRTUAL
+width 64
+height 64
+
+#ALIVE:
+alive_pixmap newspaper.xpm
+alive_dir 1
+alive_images 1
+alive_img_w 64
+alive_img_h 64
+alive_frames 1
+alive_order 0 0 0 0
+
+[INFO]
+class VIRTUAL
+width 64
+height 64
+
+#ALIVE:
+alive_pixmap information.xpm
+alive_dir 1
+alive_images 1
+alive_img_w 32
+alive_img_h 32
+alive_frames 1
+alive_order 0 0 0 0
+
+[EMAIL]
+class VIRTUAL
+width 64
+height 64
+
+#ALIVE:
+alive_pixmap email.xpm
+alive_dir 1
+alive_images 2
+alive_img_w 32
+alive_img_h 16
+alive_frames 2
+alive_framelen 800
+alive_order 0 1 0 0
+
+[STEAM]
+class VIRTUAL
+width 64
+height 64
+
+#ALIVE:
+alive_pixmap steam.xpm
+alive_dir 1
+alive_images 4
+alive_img_w 64
+alive_img_h 100
+alive_frames 4
+alive_framelen 250
+alive_order 0 1 2 3
+
+[SWITCH]
+class VIRTUAL
+width 64
+height 64
+
+#ALIVE:
+alive_pixmap switch_on.xpm
+alive_dir 1
+alive_images 1
+alive_img_w 32
+alive_img_h 32
+alive_frames 1
+alive_order 0 0 0 0
+
+dead_pixmap switch_off.xpm
+dead_dir 1
+dead_images 1
+dead_img_w 32
+dead_img_h 32
+dead_frames 1
+dead_order 0 0 0 0
+
+
+#Horizontal door.
+[DOOR_H]
+class VIRTUAL
+width 64
+height 64
+
+#DEAD (ie CLOSED)
+dead_pixmap dodgy_door.xpm
+dead_dir 1
+dead_images 1
+dead_img_w 64
+dead_img_h 64
+dead_frames 1
+dead_order 0 0 0 0
+
+#DYING:
+dying_pixmap dodgy_door.xpm
+dying_dir 1
+dying_images 3
+dying_img_w 64
+dying_img_h 64
+dying_frames 2
+dying_framelen 150
+dying_order 2 1 0 0
+
+
+# ADDED 7 JAN 03
+#
+
+[CHAINSAW]
+class ITEM
+width 40
+height 40
+item_action GIVEWEAPON
+item_weapon CHAINSAW 
+item_respawn_time 0
+alive_pixmap chainsaw.xpm
+alive_img_w 64
+alive_img_h 50
+
+
+[GATES]
+class BADDIE
+health 200
+width 40
+height 60
+speed 160
+accel 200
+weapon BORG_GUN
+draw_weapon 1
+bleeder 1
+sight 500
+
+#ALIVE
+alive_pixmap gates.xpm
+alive_dir 16
+alive_images 5
+alive_img_w 64
+alive_img_h 64
+alive_frames 4
+alive_order 1 2 3 4
+alive_framelen 200
+
+#DYING:
+dying_pixmap gates_die.xpm
+dying_stationary_ani 1
+dying_dir 1
+dying_images 4
+dying_img_w 64 
+dying_img_h 64
+dying_frames 3
+dying_order 0 1 2 3
+dying_framelen 300
+
+
+[CARROT]
+class ITEM
+width 40
+height 40
+item_action POWERUP
+item_powerup FIXED_WEAPON
+item_value 30
+item_respawn_time 120
+item_pickup_str You got the carrot
+
+#ALIVE:
+alive_pixmap carrot.xpm
+alive_dir 1
+alive_img_w 48
+alive_img_h 48

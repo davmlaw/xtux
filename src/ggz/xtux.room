@@ -1,0 +1,9 @@
+# This is the short name for the room
+Name = X-Tux
+# This is the long descriptive name for the room
+Description = An 2D-Arena where players can compete in a multiplayer deathmatch mode (called holywar) or play against the computer (cooperative multiplayer supported) in a mission against Microsoft
+# The gametype should match up to the Name of an added game
+GameType = xtux
+# These set maximum values for this room
+MaxPlayers = 150
+MaxTables = 45

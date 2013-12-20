@@ -1,0 +1,26 @@
+BASE
+' white.xpm NOCLIP
+. black.xpm  NOCLIP
+X black.xpm ALLCLIP
+, grey_light.xpm NOCLIP
+> grey_light_w.xpm NOCLIP
+- sd_titlebar_green.xpm NOCLIP
+/ sd_titlebar_green_w.xpm NOCLIP
+\ sd_titlebar_green_e.xpm NOCLIP
+B sd_topicms.xpm ALLCLIP
+b sd_topicbsd.xpm ALLCLIP
+G sd_topicgnu.xpm ALLCLIP
+T sd_topiclinux.xpm ALLCLIP
+g sd_topicgames.xpm ALLCLIP
+C sd_topiccrypt.xpm ALLCLIP
+Q slashdot_0.xpm ALLCLIP
+W slashdot_1.xpm ALLCLIP
+E slashdot_2.xpm ALLCLIP
+q sd_menu_0.xpm NOCLIP
+a sd_menu_1.xpm NOCLIP
+z sd_menu_2.xpm NOCLIP
+^ box_grey_n.xpm NOCLIP
+] box_grey_v.xpm NOCLIP
+OBJECT 
+_ line_grey_h.xpm NOCLIP
+. sd_buttons.xpm NOCLIP

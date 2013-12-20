@@ -1,0 +1,48 @@
+GGZ:
+----
+
+GGZ is GGZ Gaming Zone
+http://ggz.sourceforge.net
+
+To use GGZ with X-Tux you will need:
+  version >= 0.0.4 of GGZ or
+  CVS version from 26/may/01
+
+`tux_serv' and `xtux' will be invoked by the ggz client
+and ggz server with the `-g' command line option.
+
+So, the game will run in standard mode (standalone mode) by
+default. And if you want to run in ggz mode, just run the
+ggz client, that it will enable the ggz mode passing the
+--ggz as a command line option.
+
+
+Installing the *.dsc files:
+---------------------------
+
+In the ggz/ subdir, are two files:
+	xtuxclient.dsc	-> xtux client dsc file
+	xtux.dsc		-> xtux server dsc file
+	xtux.room		-> xtux server room file
+
+You must have ggz installed and the run:
+
+	ggz-config --install --fromfile=./ggz/xtuxclient.dsc	
+	cp ./ggz/xtux.dsc `ggz-config -c`/ggzd/games
+	cp ./ggz/xtux.room `ggz-config-c`/ggzd/rooms
+
+
+Running:
+--------
+	You'll need to have ggz and xtux installed.
+
+	run:
+		ggzd	(the ggz server)
+		ggz-gtk	(the ggz-gtk client)
+
+		log in, enter in the Xtux room and launch xtux.
+
+
+Lastest patch:
+--------------
+	http://ggz.sourceforge.net/external_games

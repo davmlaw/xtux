@@ -1,0 +1,5 @@
+- Make thread safe:
+  Either error and exit funcs need to go in thread specific area...
+  Or we do things on a per-socket basis and let the app worry about it :)
+
+

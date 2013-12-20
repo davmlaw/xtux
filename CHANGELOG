@@ -1,0 +1,197 @@
+20000518:
+
+New entities: Baby-tux, RMS, Linus, Redhat Shadowman, Gnome, Suse, Zombie.
+New death animations for most entities.
+Included some perl scripts for making the composite images.
+Bug fixes including incorrect damage handling for projectile weapons and the
+constantly changing direction loop between client & server.
+
+20000602:
+
+New BSD entity.
+Screenshots now work in menu, entity type is remembered by menu.
+Makefiles fixed up.
+
+20000617:
+
+Fixed up timing bug which was causing a whole bunch of problems.
+(also known as the can't connect problem)
+Ability to re-enter game from menu and change player setup within game.
+Weapon icons (by Dave the aspiring artist).
+Changed the Bug entity so it's smaller.
+Muzzle-flash effect.
+2 new maps (AI Test (by Milo) and GeekUSA)
+New weapon: a Rocket launcher!
+Preliminary Enemy AI, contributed by Milo van Handel.
+Lots of minor things/fixes etc.
+
+20001019: (mailing list only release)
+New map "Skyscraper", an example of a somewhat functional single player map.
+We now have items we can pick up.
+Weapons & Ammo function correctly.
+Misc fixes/changes.
+
+20001029:
+Documentation on map, entity and weapon config file formats.
+Map format now supports game mode specific entities.
+Items respawn, with spawning effect.
+Clients can now send text messages.
+Improved death messages.
+Fixed some buffers (statusbar, map) not being redrawn when needed bug.
+Rabbits behave more normally now.
+
+20001102: (mailing list only)
+>8 directions per entity now works properly.
+Spelling errors fixed up, thanks to Jason Spence
+Added events to the map format.
+Changed common map loading code to make it more robust. TOPLEVEL and EVENT
+layers are now optional, and will default to all empty if they are not present.
+Added events and weapons to some maps.
+Made changing levels work.
+
+20001109:
+The programs do not change directory, but instead use absolute paths.
+Added more options to events (active, repeat, visible).
+Clients entities now retain their weapons between levels.
+Made some levels link up together to form some sort of a plot.
+Game messages appear on client window.
+Adjusted ai_face_target() to face closest target, not first one within range.
+Can't pickup a weapon you already have in deathmatch.
+Removed pickup weapon switch.
+Added 16 direction BSD image.
+
+20001109-2:
+Found the segfaulting bug... I assumed some memory was empty after clearing it
+with the sizeof the pointer rather than the size of memory it pointed to. One
+little bloody asterisk :(
+
+20001114:
+Added powerups (tightarse tuesday, petrified natalie portman, bitrot, smp etc).
+Adding ability for text to be written to the map. You can see this on
+the new improved slashdot map.
+
+20001115:
+Made ai shooting guns work.
+Improved the slashdot map drastically, though it still needs a lot of work.
+
+20001120:
+Added Game Objectives loadable from map.
+Changed flamer and borg weapons, to make them easier.
+Fixed client entities still active before client rejoined bug.
+Map updates/changes.
+
+20001125:
+Fixed entity having a target that has been deleted bug.
+Added 16 dir, biped Gnu.
+Fixed my dodgy auto-fill algorithm.
+
+20001230:
+Added new "E" powerup.
+New map "Street Spirit"
+Added a client "goto" arrow which can be set from a map event. This can be used
+to help the player in the right direction.
+Added ai blockers, which can be used to keep AI in chosen areas.
+
+20010107:
+Improved classic controls (so they're actually usable now)
+Fixed PATH_MAX not defined portability problem.
+
+20010204:
+Fixed unsigned frags value.
+Removed BUNNYBASH mode, the same results can be gotten from setting the game
+objective to ELIMINATE_CLASS and setting class to NEUTRAL.
+Set "now" as global once at start of loop rather than lots of gettime() calls
+in server.
+Entity_type should be pointer in the entity structure rather than func call.
+Preload entities going into the map.
+Added protocol version number so that client and server speak the same language
+
+20010308:
+entity_dist() (by far the most often called function) uses integer operations rather than floating point ops (and is thus much faster) 
+Milo's patch:
+	New item, patent powerdown (can't use any weapons).
+	Events that can trigger other events.
+	Improved arctic.map
+Events have become much more powerful. We now have doors, switches and other
+things.
+Made an introduction level, where the player can learn the game in safety. This
+level also serves as an example of some of the things you can do with the new
+event code.
+Fixed bugs that occured when map size < screensize.
+Re-indexed some tiles to decrease their size.
+
+20010324:
+Added a bio for entities that didn't already have one.
+Fixed top level layer bug when map size < screensize.
+Entities are sorted on the client so they are drawn in the correct order (based
+on the y value of their bottoms)
+Optimised: particle_update(), particle_draw(), from/to net.
+Change events around a bit, but they are still a bit limited in what they can
+do.
+Added sewer level between Street and Skyscraper map (where you go down the
+man hole).
+
+20010508:
+Message are properly buffered and printed (in colour) on client. Colors are:
+GREEN, Messages from other clients
+WHITE, Message from the server (client enters/leaves/dies).
+RED, Message from an event.
+New "loseweapons" event (lose all weapons & ammunition). 
+Client "Kill me" message, frags and query frags Net Messages added.
+Improved laggy key handling in menu and menu/game ESC toggle.
+Events have 3/4 of a second between triggering now.
+Improved "sewer" map
+Fixed weapon switching annoyances.
+Fixed touchdamage over a second rounding down error (bugs not hurting bug)
+Redid most of the network code, everything is properly buffered now.
+Added weapons, events & spawn points to "Tux 3:16" 
+Client can query frags from the server.
+
+20010519:
+Fixed a few things in the "entities" file.
+Demo ability. This is done by faking a network connection but reading from
+a demo file rather than a socket. Check out "xtux -h" for command line switches
+Made some demo's play if the menu is idle.
+LONG_MAX should have been ULONG_MAX in client/particles.c
+
+20010601:
+GGZ support (patch from Ricardo Quesada)
+
+20030207
+Fixed Denial of service attack on server.
+Added mouse control.
+Added Chainsaw weapon.
+No longer requires server to be started as a separate process.
+Added Gates entity.
+Bug fixes, other feature additions & polish.
+
+20030217
+Colormap fixups - thanks Tim Hentenaar
+Misc bug fixups - thanks Sam Hocevar
+Added "follow pointer" mouse mode patch.
+Save mouse buttons to ~/.xtux
+
+TODO:
+
+Fix race conditions when forking a server.
+
+Milo's soul sucker code.
+
+A greeting string for enemies to talk?
+
+A very simple entity that doesn't move (accel
+0) that spawns projectiles could be a turret, or if
+you set it's reload time to very slow, it's projectile entity to a BADDIE
+and vision to quite large, you could have generator like Gauntlet.
+
+Pause at end of level for frag count.
+
+Automake/configure install scripts for portability/ease of install.
+
+Frags displayed nicely.
+
+More documentation / code comments etc
+
+Multilingual support.
+
+Generic (ie not XTux specific) tile map editor (a todo once XTux is done)

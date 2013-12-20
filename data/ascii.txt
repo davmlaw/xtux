@@ -1,0 +1,4 @@
+A dumping of useful ascii characters for map making.
+
+!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`
+abcdefghijklmnopqrstuvwxyz{|}~|¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·

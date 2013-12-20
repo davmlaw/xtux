@@ -1,0 +1,74 @@
+The entities file in the xtux data directory describes the entity types found
+in the game. The entities file is parsed by functions in the sourcecode file
+src/common/entity_type.c.
+
+An entity entry starts with the header of the entity name enclosed in square
+brackets, ie "[FRED]". All following values until another entity name in square
+brackets are used to fill in details about FRED.
+
+Each entity needs information about how it acts on the server, ie it's health,
+speed, height, width etc and also information on how it is drawn on the client.
+
+	Value				Data Type			Description 
+------------------------------------------------------------
+ class					string				One of either GOODIE, BADDIE, 
+											NEUTRAL, PROJECTILE or ITEM.
+ health					integer				Starting (and maximum) health.
+ width					integer				Width used for clipping on server.
+ height					integer				similar to width
+ speed					integer				Maximum speed of entity.
+ accel					integer				Accelaration in pixels/frame
+ weapon					STRING				Default weapon for entities and the
+											weapon a projectile represents.
+											Corresponds to a weapon listed in
+											the "weapons" config file.
+ draw_weapon			boolean (0/1)		Is current weapon drawn in client?
+ bleeder				boolean				Entity bleeds when shot?
+ sight					integer				Sight in pixels, used in AI.
+ touchdamage			integer				Damage per second a BADDIE inflicts
+											on a GOODIE.
+ drip1					integer				Colour #1 entity "drips" on client.
+ drip2					integer				Colour #2 entity "drips" on client.
+ cliplevel				STRING				Cliplevel of entity on the map.
+ ai						STRING				AI type.
+ item_action			STRING				What the item does to a GOODIE that
+											picks it up. See items file.
+ item_value				integer				Amount item affects pick-upper.
+ item_respawn_time		integer				Time in seconds to respawn in
+											HOLYWAR deathmatch mode.
+ item_weapon			STRING				Weapon that the item gives you
+											if it is a type GIVEWEAPON.
+ item_ammo_type			STRING				Ammunition type (amount =
+											item_value) given if item action
+											is GIVEAMMO.
+
+
+Animation details
+-----------------
+
+Are listed as ENTITYMODE_value where ENTITYMODE is a mode, like DYING, ALIVE
+etc. Each entity MUST have at least the ALIVE details.
+
+..
+
+#Details for animation of entity FRED mode ALIVE
+alive_pixmap fred.xpm
+alive_img_w 64
+alive_img_h 64
+
+..
+
+possible values are:
+
+ pixmap					STRING				Pixmap drawn of entity on client. 
+ img_w					integer				Image width (pixels)
+ img_h					integer				Image height
+ dir					integer				Number of directions of the entity.
+ frames					integer				Number of frames.
+ order					integer (x4)		Order of frames
+ framelen				integer				Frame length (microseconds)
+ stationary_ani			boolean (0/1)		Animate while stationary?
+
+Some values default to certain values, see the top of the file "entities" or
+the source of src/common/entity_type.[ch]
+

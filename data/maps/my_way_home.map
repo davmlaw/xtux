@@ -1,0 +1,93 @@
+#Basically exists so that you can choose whether or not to visit the
+#bonus map Watership down.
+My way home.
+36 12
+generic.table
+Dave Lawrence
+BASE
+|''SS'SSS'SSS'SS'''|'''g''|;;;|,,,,,
+|''''''''''''''''''|'''g''|;;;|,,,,,
+1------------------^-6)4--^---3,,,,,
+zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxc
+....................................
+....................................
+....................................
+qwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwe
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OBJECT
+-  -- --- --- --   -   pC -   -     
+-                  -P  -  -   -     
+---------------------~ --------     
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+         2                          
+      2                             
+                                    
+TOPLEVEL
+-  -- --- --- --   -      -   -     
+-                  -   -  -   -     
+---------------------  --------     
+                                    
+                                    
+                                    
+                                    
+                                    
+         1                          
+      1                             
+                                    
+                                    
+EVENT
+-  -- --- --- --   -      -   -     
+-                  -   -  -   -     
+---------------------- --------     
+H  T       d         A A    d   S  W
+H  T        d        AAA    d   S  W
+H  T         d              d   S  W
+H  T          d             d   S  W
+   T           d            d   S   
+TTTT            dddddddddddd    SSSS
+         c                          
+      c                             
+                                    
+EVENTMETA
+$message A y n y y It looks like someone called for re-enforcements.
+$message d y n y y I really should do something about these rabbits...
+$message T y n y y This way leads home.
+$message S y n y y This way to do something about the rabbit plague.
+#Extra rusty blades of death: For use on zombie flesh, hot or cold. Not designed for use on wood. 
+endlevel H y y n y home2.map
+endlevel W y y n y watership.map
+ENTITY
+SPAWN 1408 192 128 0
+
+DEWCAN 1350 180 128 0
+CHAINSAW 480 600 128 0
+ZOMBIE 896 256 64 0
+ZOMBIE 896 320 64 0
+ZOMBIE 896 384 32 0
+
+ZOMBIE 1220 256 192 0
+ZOMBIE 1220 320 192 0
+ZOMBIE 1220 384 192 0
+
+BORG 384 576 16 0
+BORG 1408 576 0 0
+
+BUNNY 64 512 128 0
+BUNNY 128 600 192 0
+BUNNY 256 600 128 0
+BUNNY 350 500 64 0
+BUNNY 500 512 128 0
+
+BUNNY 1216 500 64 0
+BUNNY 1256 600 192 0
+BUNNY 2176 500 128 0
+BUNNY 1808 650 64 0
+BUNNY 1428 500 128 0

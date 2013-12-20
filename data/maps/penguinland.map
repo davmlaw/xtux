@@ -1,0 +1,336 @@
+Penguin Land
+#penguinland
+17 57
+penguinland.table
+Dave Lawrence
+BASE
+........S........
+........S........
+........S........
+........S........
+SSSSSSSSSSSSSSSSS
+........S........
+........S........
+........S........
+........S........
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+..S....```MMMM```
+..S....mmmmmmmmmm
+..S..............
+..S..............
+..SSSSSSSSSSSSS..
+.................
+.................
+.................
+.................
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+..S../---\.......
+..S..|:::|.......
+..S..|:::|.......
+..S..(-:-).......
+..S....S.........
+..SSSSSS.........
+.................
+.................
+.................
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+`````````````````
+.................
+.................
+.................
+.................
+.......S.........
+.................
+.................
+.................
+.................
+OBJECT
+        G        
+       &G  f     
+        G        
+  f     G L      
+gggggggg gggggggg
+ f   f  G  f  f  
+        G        
+      f Gf       
+        G        
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+  G   ltttttttttt
+  G   l   cccc   
+  G   l:::    ::: 
+  G   V;;L....R;; 
+   gggggggggggg  
+                 
+                 
+                 
+                 
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+  G              
+  G              
+  G              
+  G              
+  G    G         
+   gggg          
+                 
+                 
+                 
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+                 
+                 
+      ^ ^        
+    ^     ^      
+                 
+    ^     ^      
+      ^ ^        
+                 
+                 
+TOPLEVEL
+           F     
+                 
+  F      ()      
+                 
+ F   F     F  F  
+                 
+      F  F       
+                 
+                 
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+                 
+       ,,,    ,,,
+                 
+         <====>  
+                 
+                 
+                 
+                 
+                 
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+EVENT
+       FNF       
+       -F  -     
+                 
+  -     | -    SS
+G       <>     SN
+ -   -     -  -SS
+                 
+      -  -       
+                 
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+XxBxXL           
+XxxxXL          D
+XXXXXL           
+LLLLLL           
+   E a     b      
+                 
+                 
+                 
+                 
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+YyByY            
+YyyyY            
+YYYYY            
+       *         
+  #### s          
+  #E##c          
+  ####           
+                 
+                 
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+!               !
+                 
+      7 6        
+    8     5      
+       @          
+    4  h  1      
+      3 2        
+                 
+       E           
+EVENTMETA
+map_target < y n y y <INFO> 1 0 4 Start with weapons training. Go to the shooting gallery.
+map_target | n n y y KEY=1 <INFO> 1 8 0 Next lesson is on food & drink.
+map_target > n n y y KEY=1 <INFO> 1 16 0 Now on to the sideshow.
+
+#END map target..
+map_target E y y y y 0 0 0
+message N y y y y You can't go here yet......
+
+#shooting Gallery
+teleport G y y n y 3 20 64 100
+
+#Food Area
+teleport F n y n y KEY=1 3 37 64 100
+
+#Sideshow (3)
+loseweapons L y y y y
+teleport S n y n y KEY=1 7 56 0 0
+
+#B for Back to the start.....
+teleport B y y y y 8 6 0 100
+
+#1 completed, open 2
+trigger x y n n y F n 1
+trigger X y n n y | n 1
+
+#2 completed, open 3
+trigger y y n n y S n 1
+trigger Y y n n y > n 1
+
+message a y n y y <INFO> Pickup the guns and ammo. Time for weapons practice.
+message b y n y y <INFO> Experiment with the different weapons. They each have strengths and weaknesses.
+
+#Food area
+message c y n y y <INFO> Caffeinated products restore your energy.
+
+trigger s y n y y * n 1
+door * n y y y KEY=1 <DOOR_H>
+
+damage # y n n y 45
+
+#Shooting gallery
+
+#duck thingy.
+teleport D y y y n 9 17 64 64 
+
+
+##############################
+# PUZZLE
+#############################
+
+message h y n y y <INFO> The portal code number is set to the secret of the universe. Unlock it.
+message ! y y y y <INFO> Flip switches until the total number adds up to 42
+
+#teleport back to main bit.
+endlevel @ n n y y KEY=42 home.map
+trigger 1 y y y y <SWITCH> @ n 1
+trigger 2 y y y y <SWITCH> @ n 2
+trigger 3 y y y y <SWITCH> @ n 4
+trigger 4 y y y y <SWITCH> @ n 8
+trigger 5 y y y y <SWITCH> @ n 16
+trigger 6 y y y y <SWITCH> @ n 32
+trigger 7 y y y y <SWITCH> @ n 64
+trigger 8 y y y y <SWITCH> @ n 128
+
+#7 52
+TEXT
+315 3305 black 2 128
+405 3264 black 2 64
+535 3264 black 2 32
+625 3305 black 2 16
+
+315 3401 black 2 8
+405 3424 black 2 4
+535 3424 black 2 2
+625 3401 black 2 1
+
+ENTITY
+SPAWN 512 400 0 50
+
+#Shooting gallery
+SHOTGUN 320 1380 0 0
+SHELLS 300 1420 0 0
+SHELLS 340 1420 0 0
+
+CHAINGUN 400 1380 0 0
+BULLETS 380 1420 0 0
+BULLETS 420 1420 0 0
+
+DUCKBOY 576 1088 64 64
+DUCKBOY 640 1088 64 64
+DUCKBOY 704 1088 64 64
+DUCKBOY 768 1088 64 64
+DUCKBOY 832 1088 64 64
+DUCKBOY 896 1088 64 64
+DUCKBOY 960 1088 64 64
+
+CAN 384 2104 0 0
+DEWCAN 540 2104 0 0

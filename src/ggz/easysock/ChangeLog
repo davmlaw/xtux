@@ -1,0 +1,67 @@
+2000-01-07 04:39:15  Brent M. Hendricks  <brentmh@ece.rice.edu>
+
+	* /usr/local/cvsroot/brentmh/easysock/easysock.c:
+	- Set SO_REUSEADDR option when creating server socket
+
+1999-12-10 07:21:46  Brent M. Hendricks  <brentmh@ece.rice.edu>
+
+	* /usr/local/cvsroot/brentmh/easysock/easysock.c, /usr/local/cvsroot/brentmh/easysock/easysock.h:
+
+	- Cleaned up header file to better document interface
+	- Rename enum types to remove undescores and capitalize words
+	- Preface enum values with ES to avoid namespace problems
+	- Internal function _debug() outputs debug string if DEBUG_SOCKET defined
+
+1999-10-30 18:53:36  Brent M. Hendricks  <brentmh@ece.rice.edu>
+
+	* /usr/local/cvsroot/brentmh/easysock/easysock.c:
+	- Small cleanup
+
+	* /usr/local/cvsroot/brentmh/easysock/ChangeLog:
+	*** empty log message ***
+
+	* /usr/local/cvsroot/brentmh/easysock/easysock.c, /usr/local/cvsroot/brentmh/easysock/easysock.h:
+	- Added variable argument es_va_write_string()
+	- Made es_xxx_func_rem() return the old function
+	- Added make_socket_or_die()
+	- Call err_func with strerror(errno)
+
+1999-10-30 06:22:15  Brent M. Hendricks  <brentmh@ece.rice.edu>
+
+	* /usr/local/cvsroot/brentmh/easysock/easysock.c, /usr/local/cvsroot/brentmh/easysock/easysock.h:
+	- Added variable argument es_va_write_string()
+	- Made es_xxx_func_rem() return the old function
+	- Added make_socket_or_die()
+	- Call err_func with strerror(errno)
+
+1999-09-19 05:22:51  Brent M. Hendricks  <brentmh@ece.rice.edu>
+
+	* /usr/local/cvsroot/brentmh/easysock/configure.in, /usr/local/cvsroot/brentmh/easysock/easysock.c, /usr/local/cvsroot/brentmh/easysock/easysock.h:
+	- Fleshed out stub functions
+	- Added calls to (*_err_func) and (*_exit_func)
+
+1999-09-18 04:11:53  Brent M. Hendricks  <brentmh@ece.rice.edu>
+
+	* easysock.h, easysock.c:
+	- Prepended all functions with es_ to avoid namespace pollution
+	- Added *_or_die function stubs
+	- Added function stubs for handling exit and error functions
+
+1999-09-12 03:18:30  Brent M. Hendricks  <brentmh@ece.rice.edu>
+
+	* ChangeLog, Makefile.am, easysock.c, easysock.h:
+	- Fixed up automake stuff
+	- Changed occurances of int8_t to char since other platforms
+	  don't all have int8_t defined
+	- Renamed x_byte to x_char
+
+1999-09-11 06:05:53  Brent M. Hendricks  <brentmh@ece.rice.edu>
+
+	* BUGS, TODO, .cvsignore, AUTHORS, ChangeLog, Makefile.am, NEWS, README, acconfig.h, autogen.sh, configure.in, easysock.c, easysock.h:
+	- Added files to repository
+
+1999-09-11 06:05:53  Brent M. Hendricks  <brentmh@ece.rice.edu>
+
+	* BUGS, TODO, .cvsignore, AUTHORS, ChangeLog, Makefile.am, NEWS, README, acconfig.h, autogen.sh, configure.in, easysock.c, easysock.h:
+	- Added files to repository
+

@@ -1,0 +1,25 @@
+BASE
+# black.xpm ALLCLIP
+$ black.xpm NOCLIP
+* grey_light.xpm ALLCLIP
+@ slate.xpm NOCLIP
+s stone.xpm NOCLIP
+c concrete.xpm NOCLIP
+| wall_brick_v.xpm ALLCLIP
+- wall_brick_h.xpm ALLCLIP
+Q brick.xpm ALLCLIP
+OBJECT
+. blank.xpm AICLIP
+% metal_grate.xpm NOCLIP
+& metal_guard_rail.xpm NOCLIP
+d drain.xpm NOCLIP
+r rubble.xpm NOCLIP
+X fan1.xpm NOCLIP
+b barrier.xpm GROUNDCLIP
+m manhole_open.xpm NOCLIP
+# black.xpm NOCLIP
+= pipe_h.xpm ALLCLIP
++ pipe_h_tap.xpm ALLCLIP
+_ wall_brick_toplevel.xpm ALLCLIP
+s slime.xpm NOCLIP
+| ladder_metal.xpm ALLCLIP

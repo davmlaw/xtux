@@ -1,0 +1,355 @@
+Arctic
+50 50
+default.table
+Milo van Handel
+OBJECTIVE
+type ELIMINATE_CLASS
+class BADDIE
+success_msg OK, that takes care of those.  I hope the clippies haven't arived yet, but I'm going there immediately.
+nextmap desktop.map
+BASE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr%%
+%%rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr%%
+%%rrXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXrr%%
+%%rrXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXrr%%
+%%rrXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXrr%%
+%%rrXMMMMMMMMMMMMMMM/---------------------\MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|mmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|mmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|mmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|mmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|mmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMMVmmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMMMmmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|mmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|mmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|mmmmmmmmmmmmmmmmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM<--------------\mmmmmm|MMXrr%%
+%%rrX------M-------->::::::::::::::|mmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|::::::::::::::Vmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|::::::::::::::Mmmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|::::::::::::::|mmmmmm|MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|::::::::::::::<------)MMXrr%%
+%%rrXMMMMMMMMMMMMMMM|::::::::::::::|MMMMMMMMMXrr%%
+%%rrXMMMMMMMMMMMMMMM(XXXXXXXXXXXXXXXMMMMMMMMMXrr%%
+%%rrXMMMMMMMMMMMMMMMMX:::::::::::::XMM/-----MXrr%%
+%%rrXMMMMMMMMMMMMMMMMX:::::::::::::XMM|MMMMMMXrr%%
+%%rrXMMMMMMMMMMMMMMMMX:::::::::::::XMM(------Xrr%%
+%%rrXMMMMMMMMMMMMMMMMX:::::::::::::XMMMMMMMMMXrr%%
+%%rrXMMMMMMMMMMMMMMMMX:::::::::::::XMMMMMMMMMXrr%%
+%%rrXMMMMMMMMMMMMMMMMX:::::::::::::XXXX::::::Xrr%%
+%%rrXMMMMMMMMMMMMMMMMX::::::X::::::::::::::::Xrr%%
+%%rrXMMMMMMMMMMMMMMMMX::::::X::::::::::::::::Xrr%%
+%%rrXMMMMMMMMMMMMMMMMX::::::X::::::::::::::::Xrr%%
+%%rrXMMMMMMMMMMMMMMMMX::::::X::::::::::::::::Xrr%%
+%%rrXMMMMMMMMMMMMMMMMX::::::X::::::::::::::::Xrr%%
+%%rrXMMMMMMMMMMMMMMMMX::::::X::::::::::::::::Xrr%%
+%%rrXXXXXXXXXXXXXXXXXX::::::XXXXXXXXXXXXXXXXXXrr%%
+%%rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr%%
+%%rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr%%
+%%%%%%%%%%%%%%%%%%%%%%%%##%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%##%%%%%%%%%%%%%%%%%%%%%%%%
+ssssssfiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+sssssfiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+ssssfiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+sssfiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+ssfiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+sfiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+fiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+OBJECT
+--------------------------------------------------
+--------------------------------------------------
+--                                              --
+--                                              --
+--  ------------------------------------------  --
+--  -               .                        -  --
+--  -               .                        -  --
+--  -               -----------?-----------  -  --
+--  -               -P          P         -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               .                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               --------?-------      -  -  --
+--  ---?---.---------P  P  P  P  P -      -  -  --
+--  -P              -              -      -  -  --
+--  -               -              .      -  -  --
+--  -P              -              -      -  -  --
+--  -               -              --------  -  --
+--  -P              -              -         -  --
+--  -               ----------------         -  --
+--  -                -             -  ------.-  --
+--  -                -             -  -      -  --
+--  -                -             -  --------  --
+--  -                -             -         -  --
+--  -                -             -         -  --
+--  -                -             ----......-  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  ------------------......------------------  --
+--                   .      .                   --
+--                   .      .                   --
+------------------------..------------------------
+------------------------..------------------------
+-                                                -
+-                                                -
+-                                                -
+-                                                -
+-                                                -
+-                                                -
+------------------------ -------------------------
+TOPLEVEL
+--------------------------------------------------
+--------------------------------------------------
+--                                              --
+--                                              --
+--  ------------------------------------------  --
+--  -                                        -  --
+--  -                                        -  --
+--  -               -----------------------  -  --
+--  -               --          -         -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               _                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               ----------------      -  -  --
+--  ------- ----------  -  -  -  - -      -  -  --
+--  --              -              -      -  -  --
+--  -               -              _      -  -  --
+--  --              -              -      -  -  --
+--  -               -              --------  -  --
+--  --              -              -         -  --
+--  -               ----------------         -  --
+--  -                -             -  ------ -  --
+--  -                -             -  -      -  --
+--  -                -             -  --------  --
+--  -                -             -         -  --
+--  -                -             -         -  --
+--  -                -             ----      -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  ------------------      ------------------  --
+--                                              --
+--                                              --
+------------------------  ------------------------
+------------------------  ------------------------
+-                                                -
+-                                                -
+-                                                -
+-                                                -
+-                                                -
+-                                                -
+------------------------ -------------------------
+EVENT
+--------------------------------------------------
+--------------------------------------------------
+--                                              --
+--                                              --
+--  ------------------------------------------  --
+--  -                                        -  --
+--  -                                        -  --
+--  -               -----------------------  -  --
+--  -               -G          K         -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -                                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               -                     -  -  --
+--  -               ----------------      -  -  --
+--  ------- ---------B  G  K  G  K -      -  -  --
+--  -W              -              -      -  -  --
+--  -               -                     -  -  --
+--  -V              -              -      -  -  --
+--  -               -              --------  -  --
+--  -U              -              -         -  --
+--  -               ----------------         -  --
+--  -                -             -  ------ -  --
+--  -                -             -  -      -  --
+--  -                -             -  --------  --
+--  -                -             -         -  --
+--  -                -             -         -  --
+--  -                -             ----      -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  -                -      -                -  --
+--  ------------------YYYYYY------------------  --
+--                                              --
+--                                              --
+------------------------  ------------------------
+------------------------  ------------------------
+-                                                -
+-                                                -
+-                                                -
+-                                                -
+-                                                -
+-                                                -
+------------------------E-------------------------
+
+EVENTMETA
+$MESSAGE G y n n "There's a battle for the desktop going on on one of the computers.  Better go delete KDE from there."
+$MESSAGE K y n n "GNOME's trying to conquer the desktop again!  That can't be allowed!"
+$TRIGGER W y n n V "I heard GNOME and KDE are fighting again.  Why don't these idiot just install Windows?"
+$TRIGGER V n n n U "Qhevat gur svtug jr'yy fraq na nezl bs pyvccvrf naq pbadhre gur qrfxgbc bhefryirf."  Looks like plain old rot13.  Let's see...
+$TRIGGER U n n n B "During the fight we'll send an army of clippies and conquer the desktop ourselves."  Better hurry over and warn GNOME and KDE.
+$MESSAGE B n n n The desktop battle will take place here, but I can't do anything with all these morons from Microsoft bothering me.
+$MESSAGE E y n n I can see something to the east...
+$MESSAGE Y y n n I wonder what's so important here that Bill sent this army of MSCPs?
+
+ENTITY
+
+# Outside
+SPAWN  1568 3136 0 0
+SMP    1568 3040 0 0
+MSCP   2752 2752 0 0
+MSCP   2752 2816 0 0
+MSCP   2752 2880 0 0
+MSCP   2752 2944 0 0
+MSCP   2752 3008 0 0
+MSCP   2752 3072 0 0
+MSCP   2752 3136 0 0
+MSCP   2816 2752 0 0
+MSCP   2816 2816 0 0
+MSCP   2816 2880 0 0
+MSCP   2816 2944 0 0
+MSCP   2816 3008 0 0
+MSCP   2816 3072 0 0
+MSCP   2816 3136 0 0
+MSCP   2880 2752 0 0
+MSCP   2880 2816 0 0
+MSCP   2880 2880 0 0
+MSCP   2880 2944 0 0
+MSCP   2880 3008 0 0
+MSCP   2880 3072 0 0
+MSCP   2880 3136 0 0
+MSCP   2944 2752 0 0
+MSCP   2944 2816 0 0
+MSCP   2944 2880 0 0
+MSCP   2944 2944 0 0
+MSCP   2944 3008 0 0
+MSCP   2944 3072 0 0
+MSCP   2944 3136 0 0
+MSCP   3008 2752 0 0
+MSCP   3008 2816 0 0
+MSCP   3008 2880 0 0
+MSCP   3008 2944 0 0
+MSCP   3008 3008 0 0
+MSCP   3008 3072 0 0
+MSCP   3008 3136 0 0
+MSCP   3072 2752 0 0
+MSCP   3072 2816 0 0
+MSCP   3072 2880 0 0
+MSCP   3072 2944 0 0
+MSCP   3072 3008 0 0
+MSCP   3072 3072 0 0
+MSCP   3072 3136 0 0
+MSCP   3136 2752 0 0
+MSCP   3136 2816 0 0
+MSCP   3136 2880 0 0
+MSCP   3136 2944 0 0
+MSCP   3136 3008 0 0
+MSCP   3136 3072 0 0
+MSCP   3136 3136 0 0
+TROLL     0 3136 0 0
+$ROCKET_SMALL 0 2752  64 300
+
+# Top left room
+MSCP    320  320 0 0
+MSCP    448  320 0 0
+MSCP    576  320 0 0
+MSCP    704  320 0 0
+MSCP    832  320 0 0
+MSCP    960  320 0 0
+MSCP   1088  320 0 0
+
+# Top right path
+PATENT 2304 1536 0 0
+MSCP   1344  320 0 0
+ZOMBIE 1472  320 0 0
+MSCP   1600  320 0 0
+ZOMBIE 1728  320 0 0
+MSCP   1856  320 0 0
+ZOMBIE 1984  320 0 0
+MSCP   2112  320 0 0
+ZOMBIE 2240  320 0 0
+MSCP   2368  320 0 0
+ZOMBIE 2496  320 0 0
+MSCP   2624  320 0 0
+ZOMBIE 2752  320 0 0
+MSCP   2752  448 0 0
+ZOMBIE 2752  576 0 0
+MSCP   2752  704 0 0
+ZOMBIE 2752  832 0 0
+MSCP   2752  960 0 0
+ZOMBIE 2752 1088 0 0
+MSCP   2752 1216 0 0
+ZOMBIE 2752 1344 0 0
+MSCP   2752 1472 0 0
+ZOMBIE 2752 1600 0 0
+
+# Entrance
+TROLL  1568 2368 0 0
+TROLL  1568 2240 0 0
+TROLL  1568 2112 0 0
+TROLL  1568 1984 0 0
+TROLL  1792 1856 0 0
+
+# Bottom left room
+COBOL   320 2368 0 0
+COBOL   384 2368 0 0
+COBOL   320 2304 0 0
+COBOL   384 2304 0 0
+CLIPPY  320 2240 0 0
+CLIPPY  384 2240 0 0
+CLIPPY  448 2240 0 0
+CLIPPY  448 2304 0 0
+CLIPPY  448 2368 0 0
+
+# Top right room
+BORG   1408  576 0 0
+BUG    1536  576 0 0
+BUG    1664  576 0 0
+BUG    1792  576 0 0
+BUG    1920  576 0 0
+BORG   2048  576 0 0
+BUG    2176  576 0 0
+BUG    2304  576 0 0
+BUG    2432  576 0 0
+BUG    2560  576 0 0
+
+# Middle room
+FLAMER 1344 1280 0 0
+FLAMER 1344 1344 0 0
+FLAMER 2176 1280 0 0
+FLAMER 2176 1344 0 0
+
+# A chain gun and a bit of ammo (be careful it doesn't get patented)
+CHAINGUN    0 2752 0 0
+BULLETS  2496 1728 0 0
+BULLETS  1280 2368 0 0

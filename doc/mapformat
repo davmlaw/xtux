@@ -1,0 +1,97 @@
+Maps are stored in the "maps" subdirectory of wherever the data is stored.
+
+A map in XTux is composed of 2 parts, the map header and the map data.
+
+|----------|
+|MAP HEADER|
+|----------|
+
+Line		Value					Description
+ 0			Map name				String (32)
+ 1			Map dimensions			integer x_tiles y_tiles
+ 2			Tile Table				String (32) Used to interpret map data.
+
+Lines beginning with '#' are ignored, and can be used for comment.
+
+|--------|
+|MAP DATA|
+|--------|
+
+The map data consistss of the four map layers (BASE, OBJECT, TOPLEVEL, EVENT)
+and the EVENTMETA, TEXT and ENTITY sections.
+Each section begins with a line of the section name (previous uppercased words)
+and the data follows on the subsequent lines until the next section label.
+
+The TOPLEVEL, EVENT, EVENTMETA and TEXT sections are optional.
+
+The four map layers are read in as MAP_HEIGHT lines of characters of length
+MAP_WIDTH. There must be exactly the correct number of characters in each line,
+even if there is no value in the OBJECT or TOPLEVEL layers (use spaces).
+Characters represent keys in the tile table, which represent tiles in the game.
+'#' is a valid tile value, so it can not be used for comments.
+
+In all layers except for BASE, '-' or a space represents NO VALUE. The '-'
+is useful to mark out walls to keep track of where things are.
+
+The server uses the tile table to calculate what tiles are walkable by entites
+while the client uses it to draw the map using pixmaps.
+
+The EVENT and ENTITY sections are read by the server and represent events and
+entities in the game.
+
+The characters in the EVENT section correspond to specific events listed in
+the EVENTMETA section, and are matched by the symbols (character). You can
+choose any character but ' ' and '-'.
+
+EVENTMETA consists of lines that take the form:
+
+NAME c ...........
+
+where NAME is the event name, c is the character symbol corresponding to EVENT
+layer, and ........ are the arguments, that depend on what type of event iss
+specified in NAME.
+
+The ENTITY section consists of lines that take the form:
+
+NAME x y dir vel
+
+where NAME is an entity found in the data/entities file as header [NAME]. The
+server will insert an entity of type NAME into the game at initial position
+(x,y) direction dir and velocity vel.
+
+Some characters have special values if inserted at the start of a line in the
+EVENTMETA and ENTITY sections.
+
+'#' means the line is ignored.
+'$' means the line is only read in SAVETHEWORLD mode (against monsters).
+'%' means the line is only read in HOLYWAR mode (deathmatch). 
+
+|-----------|
+|TILE TABLES|
+|-----------|
+
+Tile tables are located in the data directory. The existing tables have the
+file extension ".table"
+The tile table list the values of the character keys used in the XTux maps. They
+have two sections, BASE and OBJECT and the parts are labelled with those section
+names. The TOPLEVEL uses the same keys as the OBJECT layer. 
+
+The character/tile lines have the format:
+
+c Pixmap Cliplevel
+
+where c is the character key used in the current layer (ie BASE or
+OBJECT/TOPLEVEL) to represent the tile that is drawn as Pixmap and has the
+cliplevel of Cliplevel.
+
+c can be any printable character. Pixmap is something like "stone.xpm" and the
+client will load the image "images/tiles/stone.xpm" to represent the tile in
+the game. Cliplevel is used by the server to determine where entites can go,
+and also to draw the picture in the minimap in the client. There are four
+values:
+
+NOCLIP		Any entity can pass
+AICLIP      AI clips UNLESS they have a target (ie clip while patrolling)
+GROUNDCLIP	Entities with cliplevel GROUNDCLIP can not pass.
+ALLCLIP		Nothing can pass. Bullets/railguns/projectiles etc all stop.
+

@@ -1,0 +1,34 @@
+The tile images must be 64x64. Tiles used in the OBJECT and TOPLEVEL layers
+will be loaded and drawn with transparency, ie using masks of xpm None values.
+
+The entity images are a composite image of the directions and frames of the
+entities. This speeds up load times drastically. The form of the composite
+image is as follows:
+
+	   <- Frames ->
+
+	|----|----|----|-	D
+	| A0 | A1 | A2 |	I
+	|    |    |    |	R
+	|----|----|----|-	E
+	| B0 | B1 | B2 |	C
+	|    |    |    |	T
+	|----|----|----|-	I
+	| C0 | C1 | C2 |	O
+	|    |    |    |	N
+	|----|----|----|-
+	|    |    |    |
+
+Where A, B, C are directions and 0,1,2 are frames.
+
+There are 256 directions, so if the image has 8 directions, each would be
+rotated 256/8 = 32 degrees clockwises to the above frames. Thus the image for
+the first frame of animation in order 1 2 1 2 of 1/4 rotation clockwise with 8
+directions would be (256/4) / (256/8) = 2 = C. The first frame is 1, so the
+image would be in the above diagram C1.
+
+Frame order is set in the entity configuration file. Frame 0 is used to indicate
+a stationary entity, unless stationary_ani is set, in which case the frame order
+is used. Thus there is a maximum of 5 frames, with 4 in frame order animation
+and one for use while stationary. The maximum number of directions is 256, the
+minimum for both frames and directions is one.

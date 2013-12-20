@@ -1,0 +1,304 @@
+############################################################################
+# Character Bio's (displayed in introduction) only show up to (around)     #
+# the 60th character due to font widths. Don't go past this or it won't    #
+# be displayed properly                                                    #
+############################################################################
+
+#                                                          60
+############################################################
+                                                           #
+[TUX]
+info_lines 3
+Linux mascot by trade, Tux also dabbles in herring eating
+and occasionally saving the world from evil monopolistic
+Redmond-based software companies.
+
+[TIE]
+info_lines 1
+Tux's nephew. Awwww, isn't he cute!
+
+[GOWN]
+info_lines 2
+Tux's girlfriend. She's pink because all females wear pink.
+At least that's what we're told, we're programmers, see :(
+
+[BSD]
+info_lines 6
+The BSD Daemon, also known as "The Beastie". He usually
+spends his time complaining about "That damn penguin who
+has greater market share" or smugly smiling because his OS
+is more obscure and thus somehow superior.
+The Beastie lives for the day he can teach that cheeky
+young penguin a thing or two about a REAL Unix.
+
+[RMS]
+info_lines 2
+Bearded founder of the GNU project. This guy was coding
+free software when Tux was just a twinkle in Linus' eye.
+
+[LINUS]
+info_lines 2
+His stated goals are "World domination and scantly-clad
+women." Surely a cause worth fighting for.
+
+[SHADOWMAN]
+info_lines 2
+The mysterious Shadowman wears a Red Hat and has plenty
+of freshly burnt CD's to throw around.
+
+[GNOME]
+info_lines 3
+Building on the work of his friend Wilbur the Gimp, this
+little fellow has quite a disliking for a particular green
+dragon.
+
+[SUSE]
+info_lines 1
+Geeko the lizard is Europe's Godzilla.
+
+[GNU]
+info_lines 3
+The GNU, of the Emacs Hurd wanders around picking on
+peoples' naming conventions, which he doesn't pronounce
+correctly anyway, on account of his lisp.
+
+[VI]
+info_lines 2
+He's a radical rat! No hands off the home-row!
+:wq!
+
+[DUKE]
+info_lines 2
+Some think he's as slow as fsck, some think the Sun(tm)
+shines out of his a**
+
+[KDE]
+info_lines 3
+This QT little Dragon looks (and feels) like a particular
+desktop that almost everyone else here dislikes with a
+passion. Expect a flamewar.
+
+[BORG]
+info_lines 2
+I included this guy for Gerald Holmes. Perhaps he'll pull
+himself away from Space Cadet for a while to play some XTux.
+
+[TROLL]
+info_lines 6
+This guy is found under bridges muttering "Linux has no GUI"
+and is dangerously obsessed with Natalie Portman and grits.
+Trolls are inherently bad, but you Linux long-haired
+communists that sit around reading HOWTO's all day rather
+than getting any work done knew that already, didn't you?
+
+[BUG]
+info_lines 4
+A product of Microsoft corporation. Usually comes free (as
+in beer) and terminally integrated with most of their
+software. Bugs are just one more thing which Microsoft has
+a near monopoly on.
+
+[CLIPPY]
+info_lines 3
+This robotic creature has two settings, "Evil Killing
+Machine" and "F%$#cking annoying". Fortunately, the
+paperclips you will see in XTux are stuck in Evil mode.
+
+[BUNNY]
+info_lines 3
+Cute little furry wabbit. You shouldn't kill these
+unless they attack first.
+"AHH! HE'S COMING RIGHT FOR ME!!!"
+
+[MSCP]
+info_lines 2
+A MicroSoft Certified Peon. Swapped his soul and a large
+certification fee for instructions on how to think.
+
+[ZOMBIE]
+info_lines 1
+Braaaaiinnnnssss.....
+
+[COBOL]
+info_lines 5
+A hideous, hideous monster. Disgusting to look at, this
+beast will rot your mind and wear down your fingers from
+over-typing. Take weapon and point at COBOL. Pull trigger
+spawning bullet, adding bullet to COBOL storing in COBOL.
+Indent this you prick!
+
+[FLAMER]
+info_lines 2
+Often falling victim to clever Trolls, this guy tends
+to fire first and think later, if at all.
+
+[DUCKBOY]
+info_lines 2
+This little guy isn't really good for anything other than
+being shot into little pieces.
+
+[CD]
+info_lines 2
+Fresh and piping hot from the CD burner, CD's are plentiful
+but somewhat weak weapons.
+
+[FIREBALL]
+info_lines 1
+May hot flaming death come quickly to your enemies.
+
+[ROCKET_SMALL]
+info_lines 3
+Self-guiding rocket propelled explosive.
+From my computer game experience, people just leave these
+things lying around all over the place.
+
+[CAN]
+info_lines 2
+Refreshing caffeine suspended in a cola solution.
+Gives +15 health.
+
+[DEWCAN]
+info_lines 2
+Hill Precipitate. Twice the caffeine of regular softdrink.
+Gives +30 health.
+
+[NODOZE]
+info_lines 3
+Staple of truckers and students, this chemical slap in the
+face will keep you awake long past when it's good for you.
+Restores full health.
+
+[BADCAN]
+info_lines 3
+Teams of mad scientists toiled for years in search of the
+holy grail of evil overlords, caffeine free cola.
+Consuming this toxin will cause you to lose 15 health. 
+
+[PIZZABOX]
+info_lines 1
+A round meal in a square box. +20 health 
+
+[RANDOM_POWERUP]
+info_lines 1
+Give a random powerup.
+
+[TIGHTARSE]
+info_lines 3
+Each shot you fire while powered up has a 50% chance that it
+will not use any ammunition. It's like all your Tuesdays
+have come at once!
+
+[BITROT]
+info_lines 2
+This powerup will begin a slow decay of your bits, which
+is even more painful than it sounds.
+
+[SMP]
+info_lines 2
+Installs a system patch to allow Symmetrical Multiprocessor
+Support, which temporarily doubles your firing rate.
+
+[FIREWALL]
+info_lines 1
+Installs a temporary firewall which absorbs 50% of damage.
+
+[INVISIBLE]
+info_lines 4
+This powerup causes your character to become invisible to
+other players and monsters. However, the technology still
+has a few bugs, one of which is visible smoke trails while
+moving.
+
+[NATALIE]
+info_lines 2
+Beware her seductive looks. Close contact with Natalie
+Portman is a known cause of petrification.
+
+[E]
+info_lines 3
+Picking up an E (for Enlightenment) will allow you to
+move with a 50% speed bonus, but beware. What goes up,
+must come down.
+
+[PATENT]
+info_lines 4
+This causes a court to put a temporary injunction on use of
+devices that fall under contested patent 65535 (a device
+by which a party blows away a second party). You are thus
+unable to use any of your weapons except your default.
+
+##########
+# Weapons
+##########
+
+[CHAINGUN]
+info_lines 4
+The Chaingun uses the gatling gun principle of rotating
+barrels. It's a destructive killing machine that will clear
+the room. However, it has a healthy appetite for ammunition.
+                      - Wolfenstein 3D manual.
+
+[SHOTGUN]
+info_lines 8
+A twelve gauge double barreled Remington, S-Mart's
+top-of-the-line. You can find this in the sporting goods
+department.
+That's right, this sweet baby was made in Grand Rapids
+Michigan. Retails for about $109.95. It's got a walnut stock
+cobalt blue steel and a hair trigger.
+That's right. Shop Smart. Shop S-mart.
+                      - Ash
+
+[BAZOOKA]
+info_lines 2
+Shoulder mounted rocket launcher. Rockets do not home in
+on the shooter, but they can still do them damage.
+
+[RAILGUN]
+info_lines 3
+The Railgun. Fires a depleted uranium pellet which stops for
+nothing short of a solid wall. This includes whatever is
+standing in it's path.
+
+[SNIPER]
+info_lines 1
+Sniper Rifle. Deadly when it hits, but very slow to reload.
+
+[EGUN]
+info_lines 2
+The E-Gun. Fires a powerful electric beam but hampered by
+short range and high ammunition usage.
+
+[CHAINSAW]
+info_lines 1
+A blunt message of death spoken through sharp metal teeth.
+
+[BULLETS]
+info_lines 1
+Ammunition for the Chaingun & Sniper gun. Gives +25 bullets.
+
+[SHELLS]
+info_lines 1
+Ammunition for the Shotgun. Gives +10 shells.
+
+[ROCKETS]
+info_lines 1
+Ammunition for the Rocket Launcher. Gives +5 rockets.
+ 
+[SLUGS]
+info_lines 1
+Ammunition for the Railgun. Gives +8 slugs.
+
+[CELLS]
+info_lines 1
+Ammunition for the E-gun. Gives +25 cells.
+
+[NEWSPAPER]
+info_lines 2
+Provides news. On paper. Does not update if reloaded,
+no matter how many times you try.
+
+[GATES]
+info_lines 2
+Spiritual leader of Microsoft.
+Proves that money can't buy you love, or a decent haircut.

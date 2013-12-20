@@ -1,0 +1,33 @@
+testing testing 123..
+5 6
+default.table
+Dave Lawrence
+BASE
+/---\
+|:::|
+|:::|
+(-:-)
+.....
+.....
+OBJECT
+     
+     
+     
+     
+     
+     
+EVENT
+     
+     
+     
+  d s
+     
+     
+EVENTMETA
+## 3 flags = ACTIVE REPEAT VISIBLE ON ##
+trigger s y y y n <SWITCH> d n 1
+door d n y y n KEY=1 <DOOR_H>
+ENTITY
+SPAWN 128 320 0 0
+CHAINSAW 100 400 0 0
+GATES 128 150 0 0

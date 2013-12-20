@@ -1,0 +1,56 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:531: checking for gcc
+configure:644: checking whether the C compiler (gcc  ) works
+configure:660: gcc -o conftest    conftest.c  1>&5
+configure:686: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:691: checking whether we are using GNU C
+configure:700: gcc -E conftest.c
+configure:719: checking whether gcc accepts -g
+configure:751: checking whether make sets ${MAKE}
+configure:779: checking for main in -lX11
+configure:794: gcc -o conftest -g -O2   conftest.c -lX11   1>&5
+/usr/bin/ld: cannot find -lX11
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 787 "configure"
+#include "confdefs.h"
+
+int main() {
+main()
+; return 0; }
+configure:822: checking for main in -lXpm
+configure:837: gcc -o conftest -g -O2   conftest.c -lXpm   1>&5
+/usr/bin/ld: cannot find -lXpm
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 830 "configure"
+#include "confdefs.h"
+
+int main() {
+main()
+; return 0; }
+configure:865: checking for main in -lm
+configure:880: gcc -o conftest -g -O2   conftest.c -lm   1>&5
+configure:909: checking how to run the C preprocessor
+configure:930: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:993: checking for X
+configure:1223: checking for ANSI C header files
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1303: gcc -o conftest -g -O2   conftest.c -lm  1>&5
+configure:1330: checking for fcntl.h
+configure:1340: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1330: checking for limits.h
+configure:1340: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1330: checking for sys/time.h
+configure:1340: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1330: checking for unistd.h
+configure:1340: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1368: checking for working const
+configure:1422: gcc -c -g -O2  conftest.c 1>&5
+configure:1443: checking for size_t
+configure:1477: checking return type of signal handlers
+configure:1499: gcc -c -g -O2  conftest.c 1>&5
+configure:1520: checking for strdup
+configure:1548: gcc -o conftest -g -O2   conftest.c -lm  1>&5

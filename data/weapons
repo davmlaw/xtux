@@ -1,0 +1,196 @@
+############################################################################
+#    Weapon types / data for XTux Areana                                   #
+#                                                                          #
+#  Weapon switching is done on the order weapons are read, to change this  #
+#  order, and which weapons you consider to be "better", ie the ones that  #
+#  will auto-switch, change the order in which they appear in this file    #
+############################################################################
+
+[CD]
+class PROJECTILE
+ammo INFINITE
+damage 15
+reload_time 600
+speed 300
+projectile CD
+icon cd_icon.xpm
+obituary %s is taken for a spin by %s
+
+[FIREBALL]
+class PROJECTILE
+ammo INFINITE
+damage 15
+reload_time 600
+speed 300
+projectile FIREBALL
+icon flames_icon.xpm
+obituary %s has the hots for %s
+
+#only used as VI's starting weapon (it sucks!)
+[PISTOL]
+class BULLET
+ammo INFINITE
+damage 10
+reload_time 500
+spread 2
+max_length 300
+gun_image subm.xpm
+gun_frames 0
+icon pistol_icon.xpm
+obituary Guns didn't kill %s, %s did.
+
+#[SUBM]
+#class BULLET
+#damage 10
+#reload_time 200
+#gun_image subm.xpm
+#gun_frames 1
+
+[SHOTGUN]
+class BULLET
+ammo SHELL
+number 10
+damage 12
+spread 8
+mflash 1
+max_length 220
+reload_time 900
+initial_ammo 8
+gun_image shotgun.xpm
+gun_frames 1
+icon buckshot_icon.xpm
+obituary %s is torn a new one by %s
+push_factor 20
+
+# A Different shotgun.
+#[SHOTGUN]
+#class BULLET 
+#ammo SHELL
+#number 3
+#damage 12
+#spread 4
+#max_length 300
+#reload_time 500
+#gun_image shotgun.xpm
+#gun_frames 1 
+
+[CHAINGUN]
+class BULLET
+ammo BULLET
+damage 12
+reload_time 120
+spread 2
+mflash 1
+initial_ammo 20
+gun_image chaingun.xpm
+gun_frames 1
+icon bullet_icon.xpm
+obituary %s is holier than %s
+push_factor 8
+
+[BAZOOKA]
+class PROJECTILE
+ammo ROCKET
+damage 25
+#Splash is factored by explosion (distance of splash effect)
+explosion 80
+splashdamage 90 
+reload_time 1400
+speed 300
+projectile ROCKET_SMALL
+initial_ammo 4
+gun_image bazooka.xpm
+gun_frames 1
+icon bazooka_icon.xpm
+obituary %s is now fertilizing %s's lawn
+
+[RAILGUN]
+class SLUG
+ammo SLUG
+entstop 0
+damage 90
+reload_time 1500
+max_length 2000
+initial_ammo 5
+gun_image railgun.xpm
+gun_frames 1
+icon railslug_icon.xpm
+obituary %s see's %s's pretty colors
+push_factor 90
+#number 4
+#spread 5
+#reload_time 500
+
+[SNIPER]
+class BULLET
+ammo BULLET
+damage 120
+reload_time 2000
+mflash 1
+initial_ammo 5
+gun_image sniper.xpm
+gun_frames 1
+icon crosshair_icon.xpm
+obituary %s claims camping; %s: sniping.
+
+[EGUN]
+class BEAM
+ammo CELL
+ammo_usage 15
+entstop 0
+damage 200
+max_length 180
+reload_time 0
+initial_ammo 25
+gun_image egun.xpm
+gun_frames 1
+icon lightning_icon.xpm
+obituary %s drinks from %s's electric stream
+push_factor 50
+#ammo_usage 5
+#number 50
+#spread 255
+
+
+#######################
+# WEAPONS FOR BADDIES #
+#######################
+[FLAMER_FIREBALL]
+class PROJECTILE
+ammo INFINITE
+damage 10
+reload_time 800
+speed 200
+projectile FIREBALL
+icon flames_icon.xpm
+obituary %s was burnt by %s
+
+#only used as VI's starting weapon (it sucks!)
+[BORG_GUN]
+class BULLET
+ammo INFINITE
+damage 8
+reload_time 1000
+spread 8
+mflash 1
+max_length 200
+gun_image subm.xpm
+gun_frames 0
+icon pistol_icon.xpm
+obituary %s is assimilated by %s.
+
+[CHAINSAW]
+class BEAM
+draw_particles 0
+ammo INFINITE
+entstop 0
+damage 200
+max_length 40
+reload_time 0
+initial_ammo 0
+gun_image chainsaw.xpm
+gun_frames 1
+icon chainsaw_icon2.xpm
+obituary %s is just a pink spray in %s's eye.
+push_factor 100
+

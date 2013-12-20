@@ -1,0 +1,68 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:591: checking for a BSD compatible install
+configure:648: checking whether build environment is sane
+configure:705: checking whether make sets ${MAKE}
+configure:752: checking for working aclocal
+configure:765: checking for working autoconf
+configure:778: checking for working automake
+configure:791: checking for working autoheader
+configure:804: checking for working makeinfo
+configure:821: checking whether to enable maintainer-specific portions of Makefiles
+configure:1131: checking for ggz-config
+configure:1178: checking for gcc
+configure:1291: checking whether the C compiler (gcc   ) works
+configure:1307: gcc -o conftest    conftest.c  1>&5
+configure:1333: checking whether the C compiler (gcc   ) is a cross-compiler
+configure:1338: checking whether we are using GNU C
+configure:1347: gcc -E conftest.c
+configure:1366: checking whether gcc accepts -g
+configure:1398: checking how to run the C preprocessor
+configure:1419: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1489: checking for a BSD compatible install
+configure:1616: checking host system type
+configure:1657: checking build system type
+configure:1698: checking for ranlib
+configure:1737: checking for ld used by GCC
+configure:1800: checking if the linker (/usr/bin/ld) is GNU ld
+GNU ld version 2.9.1 (with BFD 2.9.1.0.25)
+configure:1816: checking for BSD-compatible nm
+configure:1853: checking whether ln -s works
+ltconfig:603: checking for object suffix
+ltconfig:604: gcc -c -g -O2  conftest.c 1>&5
+ltconfig:629: checking for executable suffix
+ltconfig:630: gcc -o conftest -g -O2   conftest.c  1>&5
+ltconfig:776: checking if gcc PIC flag -fPIC works
+ltconfig:777: gcc -c -g -O2 -fPIC -DPIC  conftest.c 1>&5
+ltconfig:829: checking if gcc supports -c -o file.o
+ltconfig:830: gcc -c -g -O2 -o out/conftest2.o  conftest.c 1>&5
+ltconfig:862: checking if gcc supports -c -o file.lo
+ltconfig:863: gcc -c -g -O2 -c -o conftest.lo  conftest.c 1>&5
+ltconfig:914: checking if gcc supports -fno-rtti -fno-exceptions
+ltconfig:915: gcc -c -g -O2 -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:958: checking if gcc static flag -static works
+ltconfig:959: gcc -o conftest -g -O2   -static conftest.c  1>&5
+GNU ld version 2.9.1 (with BFD 2.9.1.0.25)
+ltconfig:1592: checking if global_symbol_pipe works
+ltconfig:1593: gcc -c -g -O2  conftest.c 1>&5
+ltconfig:1596: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2\3 \3/p' > conftest.nm"
+ltconfig:1648: gcc -o conftest -g -O2 -fno-builtin -fno-rtti -fno-exceptions   conftest.c conftstm.o 1>&5
+configure:2044: checking for ANSI C header files
+configure:2057: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2124: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2149: checking for PF_LOCAL
+configure:2195: checking for SUN_LEN
+configure:2206: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2234: checking for CMSG_ALIGN
+configure:2243: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2259: checking for CMSG_LEN
+configure:2268: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2284: checking for CMSG_SPACE
+configure:2293: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2314: checking for socket
+configure:2343: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2438: checking for gethostbyname
+configure:2467: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2529: checking for inet_ntoa
+configure:2558: gcc -o conftest -g -O2   conftest.c  1>&5

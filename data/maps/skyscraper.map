@@ -1,0 +1,196 @@
+Mmmmm Skyscraper, I love you
+32 23
+street.table
+Dave Lawrence
+BASE
+@@@@@e~~~wllllllllllllllll""""""
+@@@@@E```Wllllllll#####lll""""""
+@@@@@e~~~wllllllll#####lll""""""
+#####e~~~wllllllll#####lll""""""
+#####e~~~wllllllllaBBBalll""""""
+#####e~~~wlllllllle~~~w###""""""
+BBBBB]~~~wllllXYYYe~~~w###""""""
+~~~~~~~~~wllllXllle~~~wcccccc"""
+lllll~~~~wllllXlllE```Wcccccc"""
+lllll~~~~wllllXllle~~~wcccccc"""
+lllllM~~~wllllXllle~~~wcccccc"""
+llllle~~~wlllllllle~~~wcccccc"""
+llllle~~~wlllllllle~~~wcccccc"""
+#####e~~~w########e~~~w###$##"""
+#####e~~~w########e~~~w###$##"""
+#####e~~~w########e~~~w###$##"""
+BBBBB]~~~[BBBBBBBB]~~~w"""'"""""
+~~~~~~~~~~~~~~~~~~~~~~w"""'"""""
+ccccc~~~~llllllllllllllllllll"""
+ccccc````llllllllllllllllllll"""
+ccccc~~~~YYYYXYYYYYYYYYYYYYYY"""
+ccccc````llllXlllllllllllllll"""
+ccccc~~~~llllllllllllllllllll'''
+OBJECT
+    W&&&&&E              W      
+     %%%%%       W + + E W      
+    WP   7E      W + + E W      
++ + +! d !E      W     E W      
++ + +     E      W     E W      
+-----P    E      WP d 7+ +      
+     !   7E      W!   !~~~~~~   
+~~~~~    !E      W&&&&&E    W   
+    W     E       %%%%%.    W   
+    W     E      W     E    W   
+    W    7E   X  W     E    W   
+    W    !E      WP   7E    W   
+    W     E      W!   !E    W   
+-----      + +  +       + %+    
+-----      + +  +       + %+    
+-----     --------        %     
+                          %     
+~~~~~    ~~~~~~~~~~~~~~~~~%~~   
+    W&&&&E               .  W   
+    .%%%%                .  W   
+    W&&&&                       
+     %%%%    X              W&&&
+    W    E                   %%%
+TOPLEVEL
+     -----        ~~~~~   ------
+     &&&&&        -----   ------
+~~~~~-----        -----   ------
+----------        -----   ------
+----------        -----~~~------
+----------        --------------
+----------    ------------------
+----------    -   -----      ---
+     -----    -   &&&&&      ---
+     -----    -   -----      ---
+     -----    -   -----      ---
+     -----        -----      ---
+~~~~~-----~~~~~~~~-----~~~ ~~---
+-------------------------- -----
+-------------------------- -----
+-------------------------- -----
+-------------------------- -----
+-------------------------- -----
+     ----                    ---
+     &&&&                    ---
+     ---------------------------
+     &&&&    -               ---
+     ----                    &&&
+EVENT
+A    -----                ------
+                  -----   ------
+     -----        -----   ------
+----------        -----   ------
+----------        -----   ------
+----------        --------------
+----------    ------------------
+----------    -   -----      ---
+     -----    -              ---
+     -----    -   -----     X---
+     -----    -   -----      ---
+     -----        -----      ---
+  Y  -----        -----      ---
+-------------------------- -----
+-------------------------- -----
+-------------------------- -----
+-------------------------- -----
+-------------------------- -----
+     ----                    ---
+                             ---
+B    ---------------------------
+             -               ---
+     ----                      E
+EVENTMETA
+endlevel E y y n y geekusa.map
+#Teleport once only in SAVETHEWORLD, reusable in HOLYWAR MODE
+$teleport X y n y y 2 8 128 0
+%teleport X y y y y 2 8 128 0
+teleport Y y y y y 17 12 192 200
+%teleport A y y y y 1 20 64 200
+%teleport B y y y y 1 0 64 200
+ENTITY
+#Player start
+SPAWN 0 128 32 0
+#Weapons & ammo
+SHOTGUN 1536 192 0 0
+SHELLS 1536 128 0 0
+CHAINGUN 960 448 0 0
+BULLETS 1024 448 0 0
+BULLETS 1480 768 0 0
+$SHELLS 580 1140 0 0
+
+#Stash on the separate skyscraper
+$BAZOOKA 128 640 0 0
+%EGUN 132 640 0 0
+%CELLS 136 704 0 0
+
+$TIGHTARSE 840 648 0 0
+DEWCAN 896 1344 0 0
+
+#Deathmatch only stuff.
+%SPAWN 768 1342 192 0
+%SPAWN 1792 1214 192 150
+%SPAWN 1088 320 224 0
+%BAZOOKA 128 64 0 0
+%RAILGUN 128 1280 0 0
+%BULLETS 580 1140 0 0
+%BULLETS 640 1140 0 0
+%SHELLS 1798 436 0 0
+%SLUGS 652 756 0 0
+%SHOTGUN 1792 1140 0 0
+
+#################
+#   Monsters    #
+#################
+ZOMBIE 704 64 64 1
+ZOMBIE 704 600 128 1 
+ZOMBIE 960 200 64 1
+ZOMBIE 1024 0 192 1
+ZOMBIE 1088 100 192 1
+ZOMBIE 800 500 0 1 
+ZOMBIE 960 320 0 1
+ZOMBIE 1024 320 0 1
+ZOMBIE 1088 320 0 1
+#Behind the Aircon.
+ZOMBIE 960 512 0 1
+ZOMBIE 1024 512 0 1
+ZOMBIE 1088 512 0 1
+#Bugs on the 3rd roof
+BUG 1536 512 128 0
+BUG 1600 512 128 0
+BUG 1664 512 128 0
+BUG 1728 512 128 0
+BUG 1792 512 128 0
+BUG 1472 640 0 0
+BUG 1536 640 0 0
+BUG 1600 640 0 0
+BUG 1664 640 0 0
+BUG 1728 640 0 0
+BUG 1792 640 0 0
+BUG 1472 768 0 0
+BUG 1536 768 0 0
+BUG 1600 768 0 0
+BUG 1664 768 0 0
+BUG 1728 768 0 0
+BUG 1792 768 0 0
+#Bugs on the bottom skyscraper
+BUG 768 1152 128 0
+BUG 832 1152 128 0
+BUG 896 1152 128 0
+BUG 960 1152 128 0
+BUG 1024 1152 128 0
+BUG 1088 1152 128 0
+BUG 1152 1152 128 0
+BUG 1216 1152 128 0
+BUG 1280 1152 128 0
+BUG 1344 1152 128 0
+#Bottom left skyscraper
+BUG 0 1152 0 20
+BUG 64 1152 0 20
+BUG 128 1152 0 20
+BUG 0 1280 128 20
+BUG 64 1280 128 20
+BUG 128 1280 128 20
+#Cobol's on the bottom skyscraper
+COBOL 576 1152 0 0
+COBOL 640 1216 0 0
+COBOL 896 1344 0 0
+COBOL 896 1408 0 0

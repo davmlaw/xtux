@@ -1,0 +1,39 @@
+The weapons file in the xtux data directory describes the weapon types found
+in the game. The weapons file is parsed by function in the sourcecode file
+src/common/weapon_type.c.
+
+An weapon entry starts with the header of the weapons name enclosed in square
+brackets, ie "[WHACKER]". All following values until another weapon name in
+square brackets are used to fill in details about WHACKER.
+
+Each weapon needs information about how it acts on the server, ie it's class,
+rate of damage, firing times etc.
+
+	Value				Data Type			Description 
+------------------------------------------------------------
+ class					string				One of either PROJECTILE, BULLET, 
+											SLUG or BEAM. This is how the
+											server knows weapon fundamentally
+											behaves.
+ ammo					string				Ammuntion used by weapon.
+ ammo_usage				integer				Ammo used per shot.
+ damage					integer				Damage inflicted per hit.
+ reload_time			integer				Reload time in microseconds
+ initial_ammo			integer				Amount that comes with the gun.
+ amount					integer				Amount of whatever per firing.
+ max_length				integer				Maximum range of weapon.
+ spread					integer				Random fire inaccuracy ammount.
+ mflash                 boolean(0/1)        Muzzle flash effect?  	 
+ entstop				boolean				Stops after hitting an entity?
+ wallstop				boolean				Stops after hitting a wall?
+ gun_image				string				pixmap drawn on client.
+ gun_frames				integer				frames of pixmap
+ icon					string				pixmap icon drawn in status bar.
+ projectile				string				The entity that is fired if the
+											weapon is of PROJECTILE class.
+ speed                  integer             speed of projectile launched.
+ explosion				integer				Explosion radius.
+ splashdamage			integer				Damage when projectile entity
+											explodes upon dying (or hitting),
+											despensed according to distance
+											from explosion centre.

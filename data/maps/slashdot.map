@@ -1,0 +1,1005 @@
+# slashdot.map "Slashdotting"
+# Created by James Andrews originally
+# Events, entities, stories & comments added by Dave.
+# Designed to increase chances of slashdot linking to us
+Slashdotting
+16 182
+slashdot.table
+James Andrews & Dave Lawrence
+OBJECTIVE
+type ELIMINATE_CLASS
+class BADDIE
+success_msg (Score: 5, Kick ass)
+nextmap end.map
+BASE
+................
+.QWE''g'b'G'B'T.
+.'/---------\-\.
+.q''''''''''g,>.
+.a''''''''''',>.
+.z'''''''''''-\.
+.^/---------\,>.
+.]''''''''''b,>.
+.]''''''''''',>.
+.]'''''''''''-\.
+.]/---------\,>.
+.]''''''''''G,>.
+.'''''''''''',>.
+.''''''''''''''.
+.'/---------\''.
+.'''''''''''B''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+................
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+................
+.QWE''g'b'G'B'T.
+.'/---------\--.
+.'''''''''''g,>.
+.''''''''''''--.
+.'''''''''''',>.
+.'------------\.
+.',,,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.',,,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.'',,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.',,,,,,,,,,,,'.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+................
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+................
+.QWE''g'b'G'B'T.
+.'/---------\--.
+.'''''''''''b,>.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.'------------\.
+.',,,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.',,,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.'',,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+................
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+................
+.QWE''g'b'G'B'T.
+.'/---------\--.
+.'''''''''''G,>.
+.'''''''''''',>.
+.'------------\.
+.',,,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.'',,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+................
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+................
+.QWE''g'b'G'B'T.
+.'/---------\--.
+.'''''''''''B,>.
+.''''''''''''--.
+.'''''''''''',>.
+.'------------\.
+.',,,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.'',,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.'',,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+................
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+................
+.QWE''g'b'G'B'T.
+.'/---------\--.
+.'''''''''''T,>.
+.''''''''''''--.
+.'''''''''''',>.
+.'------------\.
+.',,,,,,,,,,,,,.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+.''''''''''''''.
+................
+OBJECT
+                
+ ---  - - - - - 
+  ------------  
+             .   
+             .   
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ ---  - - - - - 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ ---  - - - - - 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ ---  - - - - - 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ ---  - - - - - 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ ---  - - - - - 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+EVENT
+ E   hh        h
+E000 h1 2 3 4 5h
+  ---hhhhhh-hhhh
+          h1h   
+          hhh   
+                
+  --------hhh   
+          h2h   
+          hhh    
+                
+  --------hhh    
+          h3h   
+          hhh   
+                
+  --------hhh   
+          h4h   
+          hhh   
+                
+                 
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ 000  1 2 3 4 5 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ 000  1 2 3 4 5 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ 000  1 2 3 4 5 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ 000  1 2 3 4 5 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ 000  1 2 3 4 5 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+----------------
+                
+ 000  1 2 3 4 5 
+  ------------  
+                
+                
+                
+  ----------    
+                
+                 
+                
+  ----------     
+                
+                
+                
+  ----------    
+                
+                
+                
+                
+                
+                
+                
+EVENTMETA
+TELEPORT 0 y y n y 3 3 96 0
+TELEPORT 1 y y n y 3 35 96 0
+TELEPORT 2 y y n y 3 67 96 0
+TELEPORT 3 y y n y 3 99 96 0
+TELEPORT 4 y y n y 3 131 96 0
+TELEPORT 5 y y n y 3 163 96 0
+$MESSAGE E y n y y This place is full of Flamers and Trolls... Time to moderate; with extreme prejudice...
+$MESSAGE h y n y y I see how this works. The pictures are hyperlinks to the different pages.
+TEXT
+# Slashdot text link color = #006760
+
+136 158 white 3 Quit karma whoring and go play XTux
+136 192 black 2 from the hot-grits-and-games dept.
+136 216 grey33 1 The idiots behind this game must have spent an extraordinary amount of time
+136 240 grey33 1 making a                level just so we'd be suitably impressed to post a link to
+210 240 #006760 1 slashdot
+212 241 #006760 1 _______
+136 264 grey33 1 their       . Oh well, we're easily bought^H^H^H^H^H^Himpressed.
+178 264 #006760 1 site
+178 265 #006760 1 ___
+136 288 black 1 (                            of       comments )
+136 288 #006760 1    Read more...  3       3
+136 289 #006760 1    __________   _       _
+
+136 414 white 3 BSD released under GPL
+136 448 black 2 from the uh-huh dept.
+136 472 #006760 1 FreeBSD  OpenBSD
+136 473 #006760 1 ________  ________
+216 472 grey33 1 ,
+312 472 grey33 1 and the rest of them have decided to merge and release
+136 496 grey33 1 the resulting code under the GPL. "We heard about this new idea of having
+136 520 grey33 1 the source code available, this just blew our minds."
+136 544 black 1 (                            of        comments )
+136 544 #006760 1    Read more...  3      501
+136 545 #006760 1    __________   _      ___
+
+136 670 white 3 RMS dresses funny
+136 704 black 2 from the St-iGNUsius-scares-young-children dept.
+136 728 grey33 1 I recently went to hear RMS talk about the history of the
+604 727 #006760 1 GNU project
+604 728 #006760 1 ___________
+136 752 grey33 1 and half way through his speech, he put on some religious type clothes and
+136 776 grey33 1 started speaking in tounges! I mean, sure he's written a few useful things like
+136 800 grey33 1 Emacs, GCC and the GPL, but like, he dresses funny!
+136 824 black 1 (                            of       comments )
+136 824 #006760 1    Read more...  3      42
+136 825 #006760 1    __________   _      __
+
+136 926 white 3 MS Windows WDE Released
+136 960 black 2 from the new-world-order dept.
+136 984 #006760 1 Microsoft
+136 985 #006760 1 ________
+224 984 grey33 1 have released their latest Windows version; WDE (World
+136 1008 grey33 1 Domination Edition). This version corrects some bugs from earlier editions,
+136 1032 grey33 1 and Microsoft have thoughtfully shrinkwrapped and sold it in stores so you
+136 1056 grey33 1 don't have to go to the trouble of downloading it.
+136 1080 black 1 (                            of        comments )
+136 1080 #006760 1    Read more...  0      666
+136 1081 #006760 1    __________   _      ___
+
+##############
+# SIDE BOXES #
+##############
+846 158 white 3 /. Poll
+846 199 black 2 Troll
+846 220 black 2 Karma whore
+846 240 black 2 Vote down
+846 262 black 2 Whinge
+846 282 black 2 Flame
+846 301 black 2 Flame spelling
+
+846 350 white 3 Guns
+
+846 606 white 3 Links
+846 640 #006760 2 XTux
+846 641 #006760 2 ____
+846 656 #006760 2 Freshmeat
+846 657 #006760 2 _________
+846 672 #006760 2 Happypenguin
+846 673 #006760 2 _____________
+846 688 #006760 2 Linuxgames
+846 689 #006760 2 __________
+846 704 #006760 2 Everything2
+846 705 #006760 2 __________
+846 720 #006760 2 Cruel.com
+846 721 #006760 2 _________
+846 736 #006760 2 The Onion
+846 737 #006760 2 _________
+846 752 #006760 2 PLIF
+846 753 #006760 2 ____
+846 768 #006760 2 Hot Teens
+846 769 #006760 2 _________
+846 784 #006760 2 IMDB
+846 785 #006760 2 _____
+846 800 #006760 2 Red Meat
+846 801 #006760 2 ________
+
+################
+# LINKED PAGES #
+################
+#2nd page - Games
+136 2206 white 3 Quit karma whoring and go play XTux
+136 2240 black 2 from the hot-grits-and-games dept.
+136 2264 grey33 1 The idiots behind this game must have spent an extraordinary amount of time
+136 2288 grey33 1 making a                level just so we'd be suitably impressed to post a link to
+210 2288 #006760 1 slashdot
+212 2289 #006760 1 _______
+136 2312 grey33 1 their       . Oh well, we're easily bought^H^H^H^H^H^Himpressed.
+178 2312 #006760 1 site
+178 2313 #006760 1 ___
+
+136 2360 grey33 1 Keep a look out for the Natalie Portman powerup(!?). If you pick it up, you become 
+136 2384 grey33 1 petrified, unable to shoot or move and thus very vunerable.
+136 2408 grey33 1 What kind of sick people are responsible for this?
+
+#Side boxes
+846 2206 white 3 Ammo
+846 2334 white 3 Related
+
+136 2496 black 1 This game is shite.
+300 2496 grey33 1 (Score: 5, Insightful)
+136 2520 black 2 By Anonymous Coward on 11:32 PM November 14th, 2000
+136 2560 grey33 1 PS, First post.
+136 2656 black 2 [
+146 2656 #006760 2 Reply to this    Parent
+146 2657 #006760 2 ___________    ______
+240 2656 black 2 |               ]
+
+136 2688 black 1 Natalie's good, but......
+330 2688 grey33 1 (Score: 1, Funny)
+136 2712 black 2 By Anonymous Coward on 0:16 AM November 15th, 2000
+136 2752 grey33 1 Where are the grits?
+136 2848 black 2 [
+146 2848 #006760 2 Reply to this    Parent
+146 2849 #006760 2 ___________    ______
+240 2848 black 2 |               ]
+
+200 2880 black 1 Re: Natalie's good, but......
+420 2880 grey33 1 (Score: -1, Troll)
+200 2904 black 2 By Anonymous Coward on 0:17 AM November 15th, 2000
+200 2944 grey33 1 Down your pants, choad.
+200 3040 black 2 [
+210 3040 #006760 2 Reply to this    Parent
+210 3041 #006760 2 ___________    ______
+304 3040 black 2 |               ]
+
+136 3072 black 1 XTux.
+200 3072 grey33 1 (Score: 1)
+136 3096 black 2 By Dave Lawrence & James Andrews on 11:42PM February 3rd, 2003
+136 3136 grey33 1 Don't forget to review XTux on
+580 3136 grey33 1 [happypenguin.org].
+398 3136 #006760 1 The linux game tome
+398 3137 #006760 1 _________________
+136 3232 black 2 [
+146 3232 #006760 2 Reply to this    Parent
+146 3233 #006760 2 ___________    ______
+240 3232 black 2 |               ]
+
+104 3360 grey33 2 Your rails, you're thin. Your thin paper wings. Your thin paper wings, in the wind, dangling.
+
+#3rd page - BSD
+136 4254 white 3 BSD released under GPL
+136 4288 black 2 from the uh-huh dept.
+
+136 4312 #006760 1 FreeBSD  OpenBSD
+136 4313 #006760 1 ________  ________
+216 4312 grey33 1 ,
+312 4312 grey33 1 and the rest of them have decided to merge and release
+136 4336 grey33 1 the resulting code under the GPL. "We heard about this new idea of having
+136 4360 grey33 1 the source code available, this just blew our minds."
+136 4384 grey33 1 Industry experts say this move will have little effect on the industry, because
+136 4408 grey33 1 Windows World Domination Edition is so good that nobody will run any of the
+136 4432 grey33 1 operating systems formally known as *BSD.
+136 4456 grey33 1 "We must integrate" said once source, "Too many choices, too much specialisation,
+136 4480 grey33 1 how can we be expected to pick which one to use? Surely they can find the best
+136 4504 grey33 1 overall solution for a million hits/day webserver and handheld, can't they?"
+
+#Side boxes
+846 4254 white 3 Dew
+
+136 4608 black 1 What's BSD?
+260 4608 grey33 1 (Score: 1)
+136 4632 black 2 By 3l33teR d/\N U on 11:36 PM November 14th, 2000
+136 4672 grey33 1 WHATS BSD AND DOES ANY1 HAVE THE WIN98 WAREZ W/CRACK 4 IT?
+136 4696 grey33 1 GrEETZ, l33t-D/\n
+136 4768 black 2 [
+146 4768 #006760 2 Reply to this    Parent
+146 4769 #006760 2 ___________    ______
+240 4768 black 2 |               ]
+
+136 4800 black 1 Whoah.
+210 4800 grey33 1 (Score: 3, Inciteful)
+136 4824 black 2 By Luser2k on 11:45 PM November 14th, 2000
+136 4862 grey33 1 I have been predicting this for years, it is indeed a paradigm shift. Imagine the beowulf clusters of
+136 4888 grey33 1 these things! They would be able to easily handle the slashdot effect and maybe even be able to run
+136 4912 grey33 1 GNOME at a decent pace.
+136 4936 grey33 1 How come Slashdot hasn't posted this earlier? Slashdot has been going down hill, I remember back
+136 4960 grey33 1 it used to be good. Like the Matrix, not like The Phantom Menace.
+136 5024 black 2 [
+146 5024 #006760 2 Reply to this    Parent
+146 5025 #006760 2 ___________    ______
+240 5024 black 2 |               ]
+
+200 5056 black 1 Re: Whoah.
+330 5056 grey33 1 (Score: 2, Inciteful)
+200 5080 black 2 By Luser2k on 11:45 PM November 14th, 2000
+200 5128 grey33 1 GNOME isn't slow, besides, it's free and not based on Windows, you bastard. You suck
+200 5152 grey33 1 you stupid KDE loving, Windows sympathising nerd boy. Hitler used to think like you
+200 5176 grey33 1 commie.
+200 5200 black 2 [
+210 5200 #006760 2 Reply to this    Parent
+210 5201 #006760 2 ___________    ______
+304 5200 black 2 |               ]
+
+200 5224 black 2 *
+210 5224 #006760 2 498 replies
+210 5225 #006760 2 __________
+310 5224 black 2 below your current threshold.
+
+340 5416 grey33 2 This is your life and it's ending one minute at a time.
+
+#4th page - GNU (y += 2048 per page)
+136 6302 white 3 RMS dresses funny
+136 6336 black 2 from the St-iGNUsius-scares-young-children dept.
+136 6360 grey33 1 I recently went to hear RMS talk about the history of the
+604 6360 #006760 1 GNU project
+604 6361 #006760 1 ___________
+136 6384 grey33 1 half way through his speech, he put on some religious type clothes and
+136 6408 grey33 1 started speaking in tounges! I mean, sure he's written a few useful
+136 6432 grey33 1 things like Emacs, GCC and the GPL, but like, he dresses funny!
+
+846 6302 white 3 Slugs
+
+136 6532 black 1 Is this news for nerds?
+350 6532 grey33 1 (Score: 5, Inciteful)
+136 6552 black 2 By Signal 33 on 11:36 PM November 15th, 2000
+136 6592 grey33 1 I'm a nerd and I say this ain't news!
+136 6688 black 2 [
+146 6688 #006760 2 Reply to this    Parent
+146 6688 #006760 2 ___________    ______
+240 6688 black 2 |               ]
+
+# += 192
+
+200 6724 black 1 Re: Is this news for nerds?
+420 6724 grey33 1 (Score: 1)
+200 6744 black 2 By Fooface on 11:37 PM November 15th, 2000
+200 6784 grey33 1 You're not a nerd, you're a geek.
+200 6880 black 2 [
+210 6880 #006760 2 Reply to this    Parent
+210 6880 #006760 2 ___________    ______
+304 6880 black 2 |               ]
+
+200 6904 black 2 *
+210 6904 #006760 2 9999 replies
+210 6904 #006760 2 ___________
+310 6905 black 2 below your current threshold (sanity).
+
+360 7464 grey33 2 /usr/games/fortune: No such file or directory
+
+
+####################### 5th page - MS (y += 2048 per page)
+136 8350 white 3 MS Windows WDE Released
+136 8384 black 2 from the new-world-order dept.
+136 8408 #006760 1 Microsoft
+136 8409 #006760 1 ________
+224 8408 grey33 1 have released their latest Windows version; WDE (World
+136 8432 grey33 1 Domination Edition). This version corrects the free thought bug in earlier
+136 8456 grey33 1 editions, and Microsoft have thoughtfully shrinkwrapped and sold it in stores
+136 8480 grey33 1 so you don't have to go to the trouble of downloading it.
+136 8528 grey33 1 Freedom is slavery, long live Big Brother Bill!
+
+846 8350 white 3 Cells
+846 8478 white 3 Firewall
+
+136 8644 black 1 Has anyone tried it yet? (FP?)
+400 8644 grey33 1 (Score: 1)
+136 8664 black 2 By Return -1 on 11:22 PM November 15th, 2000
+136 8704 grey33 1 If so, what's it like?
+136 8756 grey33 1 PS. First?
+136 8800 black 2 [
+146 8800 #006760 2 Reply to this    Parent
+146 8800 #006760 2 ___________    ______
+240 8800 black 2 |               ]
+
+200 8836 black 1 Re: Has anyone tried it yet? (FP?)
+500 8836 grey33 1 (Score: 1)
+200 8860 black 2 By 65534 of 1 on 0:17 AM November 15th, 2000
+200 8900 grey33 1 It's brilliant. Solitaire loads up to 600% faster and the paperclip assistant now helps us with
+200 8926 grey33 1 life decisions and personal beliefs not to mention giving great tips when writing letters!
+200 8996 black 2 [
+210 8996 #006760 2 Reply to this    Parent
+210 8997 #006760 2 ___________    ______
+304 8996 black 2 |               ]
+
+200 9028 black 1 Re: Has anyone tried it yet? (FP?)
+500 9028 grey33 1 (Score: 1)
+200 9052 black 2 By 65535 of 1 on 0:17 AM November 15th, 2000
+200 9092 grey33 1 Join Us. It's BLISS.
+200 9188 black 2 [
+210 9188 #006760 2 Reply to this    Parent
+210 9189 #006760 2 ___________    ______
+304 9188 black 2 |               ]
+
+450 9512 grey33 2 First Post!
+
+
+###################### 6th page - Linux (y += 2048 per page)
+136 10398 white 3 Herring eaten
+136 10432 black 2 from the sounds-fishy dept.
+136 10456 grey33 1 A tasty red herring was reported missing earlier today. An unnamed felon
+136 10480 grey33 1 broke into a William H Gates III's residence in Redmond, WA in the early
+136 10504 grey33 1 hours of Nov 14, damaging property and apparently fishing on Mr Gates' lake.
+136 10528 grey33 1 The remains of the fish and several empty cans of Mountain Dew were the only
+136 10552 grey33 1 evidence found at the scene. Police have several leads.
+
+136 10692 black 1 TIMMY!
+220 10692 grey33 1 (Score: 5, On topic)
+136 10712 black 2 By Timothy on 11:22 PM November 15th, 2000
+136 10752 grey33 1 Timmoy! Timmay! Timmy!
+136 10848 black 2 [
+146 10848 #006760 2 Reply to this    Parent
+146 10848 #006760 2 ___________    ______
+240 10848 black 2 |               ]
+
+440 11560 grey33 2 Never pet a burning dog.
+
+ENTITY
+#Level entrance
+SPAWN 0 0 128 0
+#Deathmatch spawns
+%SPAWN 896 1280 224 0
+%SPAWN 64 1280 64 0
+%SPAWN 960 0 160 0
+%SPAWN 192 2240 96 0
+%SPAWN 192 4288 96 0
+%SPAWN 192 6336 96 0
+%SPAWN 192 8384 96 0
+%SPAWN 192 10432 96 0
+
+CELLS 12 72 0 0
+EGUN 12 136 0 0
+CELLS 12 200 0 0
+
+#stuff on the "guns" side box
+RAILGUN 864 396 0 0
+SLUGS 864 492 0 0
+
+#Front page enemies
+FLAMER 640 640 0 0
+TROLL 100 640 0 0
+TROLL 896 640 0 0
+TROLL 500 1024 128 0
+TROLL 896 1024 128 0
+TROLL 600 512 128 0
+
+#Stuff on the boxes in the XTux (Games) Story
+CELLS 864 2252 0 0
+NATALIE 864 2380 0 0
+
+#Game page
+FLAMER 64 2752 0 0
+FLAMER 512 2752 0 0
+FLAMER 960 2752 0 0
+
+
+#BSD page
+DEWCAN 880 4297 0 0
+
+TROLL 64 4752 0 0
+TROLL 512 5100 0 0
+TROLL 800 4900 0 0
+TROLL 256 4850 0 0
+TROLL 960 4300 0 0
+
+#GNU page
+SLUGS 872 6360 0 0
+
+TROLL 64 6752 0 0
+TROLL 512 7100 0 0
+TROLL 960 6200 0 0
+FLAMER 800 6800 0 0
+FLAMER 256 6750 0 0
+
+#MS page
+SLUGS 872 8384 0 0
+FIREWALL 872 8512 0 0
+FLAMER 640 8800 0 0
+FLAMER 64 8940 0 0
+TROLL 100 8900 0 0
+TROLL 896 9340 0 0
+TROLL 256 9324 128 0
+TROLL 600 9520 128 0
+
+#Linux page
+CELLS 872 10440 0 0
+FLAMER 640 10900 0 0
+FLAMER 64 11040 0 0
+TROLL 100 11000 0 0
+TROLL 896 11040 0 0
+TROLL 256 11024 128 0
+TROLL 600 10920 128 0
+
+
+

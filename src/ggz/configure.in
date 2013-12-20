@@ -1,0 +1,151 @@
+AC_INIT(easysock/easysock.c)
+
+dnl Mess of version information
+dnl ===========================
+EASYSOCK_MAJOR_VERSION=0
+EASYSOCK_MINOR_VERSION=2
+EASYSOCK_MICRO_VERSION=0
+EASYSOCK_VERSION=$EASYSOCK_MAJOR_VERSION.$EASYSOCK_MINOR_VERSION.$EASYSOCK_MICRO_VERSION
+
+dnl set version info for libeasysock.so to package rev - $MAJOR + $MINOR : $MICRO : $MINOR
+EASYSOCK_VERSION_INFO=`expr $EASYSOCK_MINOR_VERSION + $EASYSOCK_MAJOR_VERSION`:$EASYSOCK_MICRO_VERSION:$EASYSOCK_MINOR_VERSION
+
+AC_SUBST(EASYSOCK_MAJOR_VERSION)
+AC_SUBST(EASYSOCK_MINOR_VERSION)
+AC_SUBST(EASYSOCK_MICRO_VERSION)
+AC_SUBST(EASYSOCK_VERSION)
+AC_SUBST(EASYSOCK_VERSION_INFO)
+
+VERSION=$EASYSOCK_VERSION
+
+AM_INIT_AUTOMAKE(easysock, $VERSION)
+AM_CONFIG_HEADER(config.h)
+AM_MAINTAINER_MODE
+
+
+dnl Compiling Options
+dnl =====================
+AC_ARG_ENABLE(debug-socket, [  --enable-debug-socket   enable socket debugging ],, enable_debug_socket=no)
+
+AC_ARG_WITH(tmpdir,
+	[  --with-ggz-tmpdir=PATH  directory for GGZ temporary files [default=/tmp/ggzd]],
+	tmpdir=$withval,
+	tmpdir="/tmp/ggzd"
+)
+
+
+dnl find ggz-config
+AC_ARG_WITH(ggz-config,[  --with-ggz-config=PATH  Path to ggz-config (optional)],
+	ggz_config="$withval", ggz_config="no")
+
+if test "$ggz_config" != "no"; then
+	AC_CHECK_FILE($ggz_config, GGZ_CONFIG=$ggz_config, 
+		AC_MSG_WARN(*** Specifed ggz-config not found -- searching path) 
+		ggz_config=no)
+fi
+
+if test "$ggz_config" = "no"; then
+   AC_PATH_PROGS(GGZ_CONFIG, ggz-config, no)
+fi
+
+if test "$GGZ_CONFIG" = "no"; then
+	GGZ_CONFIG=true
+	AC_MSG_WARN(*** Couldn't find ggz-config. Defaulting to true)
+fi
+
+
+dnl Check for programs
+dnl ==================
+AC_PROG_CC
+AC_PROG_CPP
+AC_PROG_INSTALL
+AM_PROG_LIBTOOL
+
+dnl Check TMPDIR
+dnl ============
+AC_DEFINE_UNQUOTED(TMPDIR, "${tmpdir}")
+
+dnl Check for header files
+dnl ======================
+AC_HEADER_STDC
+
+dnl Check for PF_LOCAL/PF_UNIX
+dnl ==========================
+AC_MSG_CHECKING([for PF_LOCAL])
+AC_EGREP_CPP(PF_LOCAL, [ #include <sys/socket.h>
+                 PF_LOCAL ], AC_MSG_RESULT(no) 
+			     AC_MSG_CHECKING([for PF_UNIX])
+			     AC_EGREP_CPP(PF_UNIX, [ #include <sys/socket.h>
+				          PF_UNIX ], AC_MSG_RESULT(no)
+				                     AC_MSG_ERROR(*** Cannot PF_LOCAL or PF_UNIX),
+                                          AC_MSG_RESULT(yes)
+					  AC_DEFINE(PF_LOCAL, PF_UNIX)
+			                  AC_DEFINE(AF_LOCAL, AF_UNIX)), 
+             AC_MSG_RESULT(yes))
+
+dnl Check for SUN_LEN
+dnl =================
+AC_MSG_CHECKING([for SUN_LEN])
+AC_TRY_LINK([
+    #include<sys/types.h>
+    #include<sys/un.h>], 
+    [struct sockaddr_un su; int i = SUN_LEN(&su);], 
+    AC_MSG_RESULT(yes)
+    AC_DEFINE(HAVE_SUN_LEN), AC_MSG_RESULT(no))
+
+dnl Check for msghdr member msg_controllen
+dnl ======================================
+AC_EGREP_HEADER(msg_controllen, sys/socket.h, AC_DEFINE(HAVE_MSGHDR_MSG_CONTROL)
+			AC_MSG_CHECKING([for CMSG_ALIGN])
+			AC_TRY_LINK([#include<sys/socket.h>],
+				[int i = CMSG_ALIGN(0);], 
+				AC_MSG_RESULT(yes)
+				AC_DEFINE(HAVE_CMSG_ALIGN), AC_MSG_RESULT(no))
+
+			AC_MSG_CHECKING([for CMSG_LEN])
+			AC_TRY_LINK([#include<sys/socket.h>],
+				[int i = CMSG_LEN(0);], 
+				AC_MSG_RESULT(yes)
+				AC_DEFINE(HAVE_CMSG_LEN), AC_MSG_RESULT(no))
+
+			AC_MSG_CHECKING([for CMSG_SPACE])
+			AC_TRY_LINK([#include<sys/socket.h>],
+				[int i = CMSG_SPACE(0);], 
+				AC_MSG_RESULT(yes)
+				AC_DEFINE(HAVE_CMSG_SPACE), AC_MSG_RESULT(no))
+)
+				       
+
+dnl Check for library functions
+dnl ===========================
+AC_CHECK_FUNC(socket, ,
+    AC_CHECK_LIB(socket, socket,
+	AC_CHECK_HEADER(sys/socket.h, LDADD="-lsocket",
+	    AC_MSG_ERROR(*** Cannot find socket headers ); exit ),
+	AC_MSG_ERROR(*** Cannot find socket library ); exit ))
+
+AC_CHECK_FUNC(gethostbyname, ,
+    AC_CHECK_LIB(nsl, gethostbyname, LDADD="$LDADD -lnsl",
+	AC_MSG_ERROR(*** Cannot find nsl library ); exit ))
+
+AC_CHECK_FUNC(inet_ntoa, ,
+    AC_CHECK_LIB(nsl, inet_ntoa, LDADD="$LDADD -lnsl",
+	AC_MSG_ERROR(*** Cannot find nsl library ); exit ))
+
+
+dnl Debug modes
+dnl ===========
+if test "$enable_debug_socket" = yes; then
+    AC_DEFINE(DEBUG_SOCKET)
+    DFLAGS="$DFLAGS DEBUG_SOCKET"
+fi
+
+
+AC_SUBST(LDADD)
+AC_OUTPUT(
+	Makefile
+	easysock/Makefile
+	easysock/easysock.h
+	client/Makefile
+	server/Makefile
+	)
