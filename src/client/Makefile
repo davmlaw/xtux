@@ -53,3 +53,5 @@ client: $(OBJECTS)
 # OBJECTS
 .c.o:	client.h $*.c
 	$(CC) $(CFLAGS) -c $*.c $(COMMON_INC) $(X11_INC) $(GGZ_INC)
+
+win.o: win.h

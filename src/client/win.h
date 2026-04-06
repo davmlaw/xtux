@@ -10,10 +10,11 @@
 #define DEF_WIN_W 512
 #define DEF_WIN_H 384
 
-/* Font names */
-#define MED_FONT_18 "-adobe-helvetica-medium-r-*-*-18-*-*-*-*-*-*-*"
-#define BOLD_FONT_14 "-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-*"
-#define BOLD_FONT_24 "-*-helvetica-bold-r-*-*-24-*-*-*-*-*-iso8859-*"
+/* Font names - using misc-fixed fallbacks; original helvetica fonts require
+ * xfonts-75dpi / xfonts-100dpi packages which may not be installed */
+#define MED_FONT_18 "-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso8859-1"
+#define BOLD_FONT_14 "-misc-fixed-bold-r-normal--14-130-75-75-c-70-iso8859-1"
+#define BOLD_FONT_24 "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1"
 
 typedef struct {
     Display *d;
